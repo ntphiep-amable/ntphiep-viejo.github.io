@@ -3,6 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
+    <loc>https://ntphiep.github.io/posts/etl-pipeline/</loc>
+    <lastmod>2023-11-22T03:56:20+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://ntphiep.github.io/posts/first-post/</loc>
     <lastmod>2023-11-22T03:56:20+07:00</lastmod>
     <changefreq>daily</changefreq>

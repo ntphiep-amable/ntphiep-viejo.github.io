@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Hiep</title>
-    <link>https://ntphiep.github.io/posts/</link>
-    <description>Recent content in Posts on Hiep</description>
+    <title>python on Hiep</title>
+    <link>https://ntphiep.github.io/tags/python/</link>
+    <description>Recent content in python on Hiep</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2023 Hiep</copyright>
-    <lastBuildDate>Wed, 22 Nov 2023 03:56:20 +0700</lastBuildDate><atom:link href="https://ntphiep.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Nov 2023 03:56:20 +0700</lastBuildDate><atom:link href="https://ntphiep.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Build a Data Pipeline</title>
       <link>https://ntphiep.github.io/posts/etl-pipeline/</link>
@@ -16,16 +16,6 @@
       <guid>https://ntphiep.github.io/posts/etl-pipeline/</guid>
       <description>Build a simple Data Pipeline witt Python # But I don&amp;rsquo;t know how :))</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://ntphiep.github.io/posts/etl-pipeline/featured.png" />
-    </item>
-    
-    <item>
-      <title>First Post</title>
-      <link>https://ntphiep.github.io/posts/first-post/</link>
-      <pubDate>Wed, 22 Nov 2023 03:56:20 +0700</pubDate>
-      
-      <guid>https://ntphiep.github.io/posts/first-post/</guid>
-      <description>Những cái loại không làm mà đòi có ăn thì chỉ có ăn đb ăn c</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://ntphiep.github.io/posts/first-post/featured.jpg" />
     </item>
     
     <item>

@@ -1,9 +1,9 @@
 +++
-title = 'Hello'
+title = 'Hello World'
 date = 2023-11-22T03:43:26+07:00
 draft = false
 
-
+tags = ["miscel", "python"]
 +++
 
 

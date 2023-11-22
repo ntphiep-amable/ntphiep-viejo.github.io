@@ -9,33 +9,43 @@
     <copyright>© 2023 Hiep</copyright>
     <lastBuildDate>Wed, 22 Nov 2023 03:56:20 +0700</lastBuildDate><atom:link href="https://ntphiep.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Build a Data Pipeline</title>
+      <link>https://ntphiep.github.io/posts/etl-pipeline/</link>
+      <pubDate>Wed, 22 Nov 2023 03:56:20 +0700</pubDate>
+      
+      <guid>https://ntphiep.github.io/posts/etl-pipeline/</guid>
+      <description>Build a simple Data Pipeline witt Python # But I don&amp;rsquo;t know how :))</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://ntphiep.github.io/posts/etl-pipeline/featured.png" />
+    </item>
+    
+    <item>
       <title>First Post</title>
       <link>https://ntphiep.github.io/posts/first-post/</link>
       <pubDate>Wed, 22 Nov 2023 03:56:20 +0700</pubDate>
       
       <guid>https://ntphiep.github.io/posts/first-post/</guid>
-      <description>những cái loại không làm mà đòi có ăn thì chỉ có ăn đb ăn c</description>
-      
+      <description>Những cái loại không làm mà đòi có ăn thì chỉ có ăn đb ăn c</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://ntphiep.github.io/posts/first-post/featured.jpg" />
     </item>
     
     <item>
-      <title>Hello</title>
+      <title>About Me</title>
       <link>https://ntphiep.github.io/about/</link>
       <pubDate>Wed, 22 Nov 2023 03:43:26 +0700</pubDate>
       
       <guid>https://ntphiep.github.io/about/</guid>
       <description>Hola a todos, soy Hiep.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://ntphiep.github.io/about/featured.jpg" />
     </item>
     
     <item>
-      <title>Hello</title>
+      <title>Hello World</title>
       <link>https://ntphiep.github.io/posts/hello/</link>
       <pubDate>Wed, 22 Nov 2023 03:43:26 +0700</pubDate>
       
       <guid>https://ntphiep.github.io/posts/hello/</guid>
       <description>A basic python program # Print Hello World on the console</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://ntphiep.github.io/posts/hello/featured.png" />
     </item>
     
   </channel>

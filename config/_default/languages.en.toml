@@ -7,11 +7,13 @@ title = "Hiep"
   name = "Hiep"
   image = "img/hiep1.jpeg"
   headline = "Just a soñador"
-  bio = "hehe"
+  bio = "Hi! I’m Hiep. "
   links = [
     { facebook = "https://www.facebook.com/ng.hiep.128" },
     { instagram = "https://www.instagram.com/ng.hiep__/" },
-    { github = "https://github.com/ntphiep" }
+    { github = "https://github.com/ntphiep" },
+    { email = "mailto:ng.hiep0822@gmail.com" },
+    { linkedin = "https://www.linkedin.com/in/nguyen-hiep-ab2086296" }
   ]
 
 [params]

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>data on Hiep</title>
+    <link>https://ntphiep.github.io/tags/data/</link>
+    <description>Recent content in data on Hiep</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2023 Hiep</copyright>
+    <lastBuildDate>Wed, 22 Nov 2023 03:56:20 +0700</lastBuildDate><atom:link href="https://ntphiep.github.io/tags/data/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Build a Data Pipeline</title>
+      <link>https://ntphiep.github.io/posts/etl-pipeline/</link>
+      <pubDate>Wed, 22 Nov 2023 03:56:20 +0700</pubDate>
+      
+      <guid>https://ntphiep.github.io/posts/etl-pipeline/</guid>
+      <description>Build a simple Data Pipeline witt Python # But I don&amp;rsquo;t know how :))</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://ntphiep.github.io/posts/etl-pipeline/featured.png" />
+    </item>
+    
+  </channel>
+</rss>

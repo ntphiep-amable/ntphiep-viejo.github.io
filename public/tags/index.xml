@@ -7,6 +7,36 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2023 Hiep</copyright>
-    <atom:link href="https://ntphiep.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Nov 2023 03:56:20 +0700</lastBuildDate><atom:link href="https://ntphiep.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>data</title>
+      <link>https://ntphiep.github.io/tags/data/</link>
+      <pubDate>Wed, 22 Nov 2023 03:56:20 +0700</pubDate>
+      
+      <guid>https://ntphiep.github.io/tags/data/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>miscel</title>
+      <link>https://ntphiep.github.io/tags/miscel/</link>
+      <pubDate>Wed, 22 Nov 2023 03:56:20 +0700</pubDate>
+      
+      <guid>https://ntphiep.github.io/tags/miscel/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>https://ntphiep.github.io/tags/python/</link>
+      <pubDate>Wed, 22 Nov 2023 03:56:20 +0700</pubDate>
+      
+      <guid>https://ntphiep.github.io/tags/python/</guid>
+      <description></description>
+      
+    </item>
+    
   </channel>
 </rss>
