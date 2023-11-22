@@ -3,6 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>https://example.org/</loc>
+    <loc>https://ntphiep.github.io/posts/first-post/</loc>
+    <lastmod>2023-11-22T03:56:20+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://ntphiep.github.io/</loc>
+    <lastmod>2023-11-22T03:56:20+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://ntphiep.github.io/posts/</loc>
+    <lastmod>2023-11-22T03:56:20+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://ntphiep.github.io/about/</loc>
+    <lastmod>2023-11-22T03:43:26+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://ntphiep.github.io/posts/hello/</loc>
+    <lastmod>2023-11-22T03:43:26+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
 </urlset>

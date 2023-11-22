@@ -1,12 +1,42 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
-    <link>https://example.org/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <title>Hiep</title>
+    <link>https://ntphiep.github.io/</link>
+    <description>Recent content on Hiep</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>© 2023 </copyright>
-    <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <copyright>© 2023 Hiep</copyright>
+    <lastBuildDate>Wed, 22 Nov 2023 03:56:20 +0700</lastBuildDate><atom:link href="https://ntphiep.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First Post</title>
+      <link>https://ntphiep.github.io/posts/first-post/</link>
+      <pubDate>Wed, 22 Nov 2023 03:56:20 +0700</pubDate>
+      
+      <guid>https://ntphiep.github.io/posts/first-post/</guid>
+      <description>những cái loại không làm mà đòi có ăn thì chỉ có ăn đb ăn c</description>
+      
+    </item>
+    
+    <item>
+      <title>Hello</title>
+      <link>https://ntphiep.github.io/about/</link>
+      <pubDate>Wed, 22 Nov 2023 03:43:26 +0700</pubDate>
+      
+      <guid>https://ntphiep.github.io/about/</guid>
+      <description>Hola a todos, soy Hiep.</description>
+      
+    </item>
+    
+    <item>
+      <title>Hello</title>
+      <link>https://ntphiep.github.io/posts/hello/</link>
+      <pubDate>Wed, 22 Nov 2023 03:43:26 +0700</pubDate>
+      
+      <guid>https://ntphiep.github.io/posts/hello/</guid>
+      <description>A basic python program # Print Hello World on the console</description>
+      
+    </item>
+    
   </channel>
 </rss>
