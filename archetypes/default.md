@@ -4,4 +4,3 @@ date = {{ .Date }}
 draft = true
 +++
 
-# !Hola a todos, soy Hiep!
