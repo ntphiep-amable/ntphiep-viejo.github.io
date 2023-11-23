@@ -23,15 +23,22 @@
 
 
 [[main]]
+  name = "Shop"
+  pageRef = ""
+  weight = 30
+
+
+
+[[main]]
   name = "Portfolio"
   pageRef = "portfolio"
-  weight = 30
+  weight = 40
 
 
 [[main]]
   name = "About"
   pageRef = "about"
-  weight = 40
+  weight = 50
 
 # [[main]]
 #   pre = "github"
