@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>shop on Hiep</title>
+    <link>https://ntphiep.github.io/tags/shop/</link>
+    <description>Recent content in shop on Hiep</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2023 Hiep</copyright>
+    <lastBuildDate>Tue, 21 Nov 2023 03:56:10 +0700</lastBuildDate><atom:link href="https://ntphiep.github.io/tags/shop/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Shop</title>
+      <link>https://ntphiep.github.io/shop/</link>
+      <pubDate>Tue, 21 Nov 2023 03:56:10 +0700</pubDate>
+      
+      <guid>https://ntphiep.github.io/shop/</guid>
+      <description>This is my shopp # </description>
+      
+    </item>
+    
+  </channel>
+</rss>

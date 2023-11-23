@@ -24,7 +24,7 @@
 
 [[main]]
   name = "Shop"
-  pageRef = ""
+  pageRef = "shop"
   weight = 30
 
 
