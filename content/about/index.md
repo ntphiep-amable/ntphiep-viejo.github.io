@@ -9,7 +9,7 @@ backgroundImage: img/hiep2.jpg
 ---
 
 
-# Hola a todos, soy Hiep.
+# Hola a todos, soy Hiep
 
 Este es mi blog personal, aquí escribiré sobre temas como vida, programación, opiniones, emociones o temas varios...
 
