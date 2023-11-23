@@ -6,4 +6,4 @@ draft = false
 tags = ["miscel"]
 +++
 
-Những cái loại không làm mà đòi có ăn thì chỉ có ăn đb ăn c
+Deptrai, k lói nhiều 😎

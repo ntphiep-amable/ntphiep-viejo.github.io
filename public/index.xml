@@ -24,7 +24,7 @@
       <pubDate>Wed, 22 Nov 2023 03:56:20 +0700</pubDate>
       
       <guid>https://ntphiep.github.io/posts/first-post/</guid>
-      <description>Những cái loại không làm mà đòi có ăn thì chỉ có ăn đb ăn c</description>
+      <description>Deptrai, k lói nhiều 😎</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://ntphiep.github.io/posts/first-post/featured.jpg" />
     </item>
     
@@ -39,23 +39,13 @@
     </item>
     
     <item>
-      <title>About Me</title>
-      <link>https://ntphiep.github.io/about/</link>
-      <pubDate>Tue, 21 Nov 2023 03:57:10 +0700</pubDate>
-      
-      <guid>https://ntphiep.github.io/about/</guid>
-      <description>About Me # Hello!</description>
-      
-    </item>
-    
-    <item>
       <title>About NTPH</title>
       <link>https://ntphiep.github.io/info/</link>
       <pubDate>Tue, 21 Nov 2023 03:57:10 +0700</pubDate>
       
       <guid>https://ntphiep.github.io/info/</guid>
-      <description>this is About NTPH</description>
-      
+      <description>¡Hola a todos, soy Hiep!</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://ntphiep.github.io/info/featured.jpg" />
     </item>
     
     <item>
@@ -65,6 +55,16 @@
       
       <guid>https://ntphiep.github.io/shop/</guid>
       <description>This is my shopp # </description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ntphiep.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntphiep.github.io/about/</guid>
+      <description>Day moi la about ne</description>
       
     </item>
     
