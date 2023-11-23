@@ -39,22 +39,32 @@
     </item>
     
     <item>
+      <title>About Me</title>
+      <link>https://ntphiep.github.io/about/</link>
+      <pubDate>Tue, 21 Nov 2023 03:57:10 +0700</pubDate>
+      
+      <guid>https://ntphiep.github.io/about/</guid>
+      <description>About Me # Hello!</description>
+      
+    </item>
+    
+    <item>
+      <title>About NTPH</title>
+      <link>https://ntphiep.github.io/info/</link>
+      <pubDate>Tue, 21 Nov 2023 03:57:10 +0700</pubDate>
+      
+      <guid>https://ntphiep.github.io/info/</guid>
+      <description>this is About NTPH</description>
+      
+    </item>
+    
+    <item>
       <title>Shop</title>
       <link>https://ntphiep.github.io/shop/</link>
       <pubDate>Tue, 21 Nov 2023 03:56:10 +0700</pubDate>
       
       <guid>https://ntphiep.github.io/shop/</guid>
       <description>This is my shopp # </description>
-      
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://ntphiep.github.io/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ntphiep.github.io/about/</guid>
-      <description>About Me # Hello!</description>
       
     </item>
     

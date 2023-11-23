@@ -33,13 +33,20 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://ntphiep.github.io/shop/</loc>
-    <lastmod>2023-11-21T03:56:10+07:00</lastmod>
+    <loc>https://ntphiep.github.io/about/</loc>
+    <lastmod>2023-11-21T03:57:10+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://ntphiep.github.io/about/</loc>
+    <loc>https://ntphiep.github.io/info/</loc>
+    <lastmod>2023-11-21T03:57:10+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://ntphiep.github.io/shop/</loc>
+    <lastmod>2023-11-21T03:56:10+07:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

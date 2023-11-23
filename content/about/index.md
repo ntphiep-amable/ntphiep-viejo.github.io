@@ -1,3 +1,13 @@
++++
+title = 'About Me'
+date = 2023-11-21T03:57:10+07:00
+draft = false
+
+
+# url = "/shop/"
++++
+
+
 # About Me
 
 Hello! My name is [Your Name] and welcome to my personal website. Here, you'll find information about me and my interests.
