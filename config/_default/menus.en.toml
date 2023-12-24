@@ -11,9 +11,9 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
- name = "Posts"
- pageRef = "posts"
- weight = 10
+  name = "Posts"
+  pageRef = "posts"
+  weight = 10
 
 
 [[main]]
@@ -26,7 +26,6 @@
   name = "Shop"
   pageRef = "shop"
   weight = 30
-
 
 
 [[main]]

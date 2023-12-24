@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr" class="scroll-smooth" data-default-appearance="light"
-  data-auto-appearance="true"><head>
+<html lang="en" dir="ltr" class="scroll-smooth" data-default-appearance="dark"
+  data-auto-appearance="false"><head>
   <meta charset="utf-8" />
   
   <meta http-equiv="content-language" content="en" />
@@ -11,7 +11,7 @@
   <title>shop &middot; Hiep</title>
   <meta name="title" content="shop &middot; Hiep" />
   
-  
+  <meta name="description" content="NTPH | Hiep" />
   
   
   
@@ -43,8 +43,11 @@
   
   
   
-  <script defer type="text/javascript" id="script-bundle" src="/js/main.bundle.min.24224d278b2cd9043bb95d246186d302ae3d77ce79c167550e7220387a5da9c00d69ba619920af359ba5ef6c846bbdfaaca3136a81aee4dc9d81cd614cfc9edb.js"
-    integrity="sha512-JCJNJ4ss2QQ7uV0kYYbTAq49d855wWdVDnIgOHpdqcANabphmSCvNZul72yEa736rKMTaoGu5Nydgc1hTPye2w==" data-copy="" data-copied=""></script>
+  
+  
+  
+  <script defer type="text/javascript" id="script-bundle" src="/js/main.bundle.min.2bb835871efa00cea0d454aa3cb2eb6911f45f8eb1e620f5f4fea202ad41bede17310caf73408ded4bf59bbe6795286316dd4bf0b99823d67a6c3158eab1827d.js"
+    integrity="sha512-K7g1hx76AM6g1FSqPLLraRH0X46x5iD19P6iAq1Bvt4XMQyvc0CN7Uv1m75nlShjFt1L8LmYI9Z6bDFY6rGCfQ==" data-copy="" data-copied=""></script>
   
   <script src="/js/zoom.min.js"></script>
   
@@ -61,14 +64,14 @@
   
   
   <meta property="og:title" content="shop" />
-<meta property="og:description" content="" />
+<meta property="og:description" content="NTPH | Hiep" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://ntphiep.github.io/tags/shop/" />
 
 
   <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="shop"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:description" content="NTPH | Hiep"/>
 
   
   
@@ -134,7 +137,11 @@
   </div>
   
   
-  <div style="padding-left:0;padding-right:0;padding-top:2px;padding-bottom:3px"
+  <div class="min-h-[148px]"></div>
+<div class="fixed inset-x-0 pl-[24px] pr-[24px]" style="z-index:100">
+  <div id="menu-blur" class="absolute opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-2xl shadow-2xl"></div>
+  <div class="relative max-w-[64rem] ml-auto mr-auto">
+    <div style="padding-left:0;padding-right:0;padding-top:2px;padding-bottom:3px"
     class="main-menu flex items-center justify-between px-4 py-6 sm:px-6 md:justify-start space-x-3">
     
     <div class="flex flex-1 items-center justify-between">
@@ -413,6 +420,26 @@
 
 
 
+<script>
+    (function () {
+        var $mainmenu = $('.main-menu');
+        var path = window.location.pathname;
+        $mainmenu.find('a[href="' + path + '"]').each(function (i, e) {
+            $(e).children('p').addClass('active');
+        });
+    })();
+</script>
+
+
+  </div>
+</div>
+<script>
+  window.addEventListener('scroll', function (e) {
+    var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+    var background_blur = document.getElementById('menu-blur');
+    background_blur.style.opacity = (scroll / 300);
+  });
+</script>
 
   
   <div class="relative flex flex-col grow">
@@ -531,10 +558,38 @@
 
 
 
+
+
+
+
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2023-11-21 03:56:10 &#43;0700 &#43;07">21 November 2023</time><span class="px-2 text-primary-500">&middot;</span><span>5 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
+  <time datetime="2023-11-21 03:56:10 &#43;0700 &#43;07">2023-11-21</time><span class="px-2 text-primary-500">&middot;</span><span>5 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span><span class="px-2 text-primary-500">&middot;</span><span>
+    
+    <span id="views_shop\index.md" title="views">0</span> 
+    
+    <span class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+<path fill="currentColor" d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM432 256c0 79.5-64.5 144-144 144s-144-64.5-144-144s64.5-144 144-144s144 64.5 144 144zM288 192c0 35.3-28.7 64-64 64c-11.5 0-22.3-3-31.6-8.4c-.2 2.8-.4 5.5-.4 8.4c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6z"/></svg>
+  </span>
+
+</span>
+</span><span class="px-2 text-primary-500">&middot;</span><span>
+    
+    <span id="likes_shop\index.md" title="likes">0</span> 
+    
+    <span class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<path fill="currentColor" d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"/></svg>
+  </span>
+
+</span>
+</span>
   
 
   
@@ -554,18 +609,12 @@
   
   
   
-  
-  
 </div>
 
 
 
 
 <div class="flex flex-row flex-wrap items-center">
-  
-  
-  
-  
   
   
   

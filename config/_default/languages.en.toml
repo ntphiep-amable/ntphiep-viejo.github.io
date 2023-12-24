@@ -5,7 +5,7 @@ title = "Hiep"
 
 [author]
   name = "Hiep"
-  image = "img/hiep1.jpeg"
+  image = "img/avt1.jpg"
   headline = "Just a soñador"
   bio = "Hi! I’m Hiep. "
   links = [
@@ -20,10 +20,10 @@ title = "Hiep"
   displayName = "EN"
   isoCode = "en"
   rtl = false
-  dateFormat = "2 January 2006"
+  dateFormat = "2006-01-02"
   # logo = "img/logo.png"
-  # secondaryLogo = "img/secondary-logo.png"
-  # description = "My awesome website"
+  secondaryLogo = "img/logo.png"
+  description = "NTPH | Hiep"
   # copyright = "Copy, _right?_ :thinking_face:"
 
 # [author]

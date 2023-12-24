@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr" class="scroll-smooth" data-default-appearance="light"
-  data-auto-appearance="true"><head>
+<html lang="en" dir="ltr" class="scroll-smooth" data-default-appearance="dark"
+  data-auto-appearance="false"><head>
   <meta charset="utf-8" />
   
   <meta http-equiv="content-language" content="en" />
@@ -11,7 +11,7 @@
   <title>Categories &middot; Hiep</title>
   <meta name="title" content="Categories &middot; Hiep" />
   
-  
+  <meta name="description" content="NTPH | Hiep" />
   
   
   
@@ -43,8 +43,11 @@
   
   
   
-  <script defer type="text/javascript" id="script-bundle" src="/js/main.bundle.min.24224d278b2cd9043bb95d246186d302ae3d77ce79c167550e7220387a5da9c00d69ba619920af359ba5ef6c846bbdfaaca3136a81aee4dc9d81cd614cfc9edb.js"
-    integrity="sha512-JCJNJ4ss2QQ7uV0kYYbTAq49d855wWdVDnIgOHpdqcANabphmSCvNZul72yEa736rKMTaoGu5Nydgc1hTPye2w==" data-copy="" data-copied=""></script>
+  
+  
+  
+  <script defer type="text/javascript" id="script-bundle" src="/js/main.bundle.min.2bb835871efa00cea0d454aa3cb2eb6911f45f8eb1e620f5f4fea202ad41bede17310caf73408ded4bf59bbe6795286316dd4bf0b99823d67a6c3158eab1827d.js"
+    integrity="sha512-K7g1hx76AM6g1FSqPLLraRH0X46x5iD19P6iAq1Bvt4XMQyvc0CN7Uv1m75nlShjFt1L8LmYI9Z6bDFY6rGCfQ==" data-copy="" data-copied=""></script>
   
   <script src="/js/zoom.min.js"></script>
   
@@ -61,14 +64,14 @@
   
   
   <meta property="og:title" content="Categories" />
-<meta property="og:description" content="" />
+<meta property="og:description" content="NTPH | Hiep" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://ntphiep.github.io/categories/" />
 
 
   <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Categories"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:description" content="NTPH | Hiep"/>
 
   
   
@@ -134,7 +137,11 @@
   </div>
   
   
-  <div style="padding-left:0;padding-right:0;padding-top:2px;padding-bottom:3px"
+  <div class="min-h-[148px]"></div>
+<div class="fixed inset-x-0 pl-[24px] pr-[24px]" style="z-index:100">
+  <div id="menu-blur" class="absolute opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-2xl shadow-2xl"></div>
+  <div class="relative max-w-[64rem] ml-auto mr-auto">
+    <div style="padding-left:0;padding-right:0;padding-top:2px;padding-bottom:3px"
     class="main-menu flex items-center justify-between px-4 py-6 sm:px-6 md:justify-start space-x-3">
     
     <div class="flex flex-1 items-center justify-between">
@@ -413,6 +420,26 @@
 
 
 
+<script>
+    (function () {
+        var $mainmenu = $('.main-menu');
+        var path = window.location.pathname;
+        $mainmenu.find('a[href="' + path + '"]').each(function (i, e) {
+            $(e).children('p').addClass('active');
+        });
+    })();
+</script>
+
+
+  </div>
+</div>
+<script>
+  window.addEventListener('scroll', function (e) {
+    var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+    var background_blur = document.getElementById('menu-blur');
+    background_blur.style.opacity = (scroll / 300);
+  });
+</script>
 
   
   <div class="relative flex flex-col grow">
