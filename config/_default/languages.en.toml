@@ -1,12 +1,12 @@
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "Hiep"
+title = "Hiep's blog"
 
 [author]
   name = "Hiep"
   image = "img/avt1.jpg"
-  headline = "Just a soñador"
+  headline = "Solo un soñador"
   bio = "Hi! I’m Hiep. "
   links = [
     { facebook = "https://www.facebook.com/ng.hiep.128" },
@@ -22,7 +22,7 @@ title = "Hiep"
   rtl = false
   dateFormat = "2006-01-02"
   # logo = "img/logo.png"
-  secondaryLogo = "img/logo.png"
+  # secondaryLogo = "img/logo.png"
   description = "NTPH | Hiep"
   # copyright = "Copy, _right?_ :thinking_face:"
 
