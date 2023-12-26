@@ -30,7 +30,7 @@
 
 [[main]]
   name = "Portfolio"
-  pageRef = "portfolio"
+  url = "https://ntph-portfolio.vercel.app/"
   weight = 40
 
 
