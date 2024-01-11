@@ -8,14 +8,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>About NTPH &middot; Hiep&#39;s blog</title>
-  <meta name="title" content="About NTPH &middot; Hiep&#39;s blog" />
+  <title>Dagster Cơ Bản: Build Một Data Pipeline Đơn Giản Với Dagster &middot; Hiep&#39;s blog</title>
+  <meta name="title" content="Dagster Cơ Bản: Build Một Data Pipeline Đơn Giản Với Dagster &middot; Hiep&#39;s blog" />
   
   <meta name="description" content="NTPH | Hiep" />
+  <meta name="keywords" content="python, data, dagster, data pipeline, " />
   
   
-  
-  <link rel="canonical" href="https://ntphiep.github.io/info/" />
+  <link rel="canonical" href="https://ntphiep.github.io/posts/dagster_2/" />
   
   
   
@@ -63,49 +63,45 @@
   
   
   
-  <meta property="og:title" content="About NTPH" />
-<meta property="og:description" content="¡Hola a todos, soy Hiep! # Este es mi blog personal, aquí escribiré sobre temas como vida, programación, opiniones, emociones o temas varios&hellip;
-Gracias por leer😙.
-Lói chung là cái cuộc sống này buồn ~" />
+  <meta property="og:title" content="Dagster Cơ Bản: Build Một Data Pipeline Đơn Giản Với Dagster" />
+<meta property="og:description" content="Lời mở đầu # Trong bài trước mình đã giới thiệu với mọi người về Dagster, nó là gì, dùng để làm gì. Trong bài này mình sẽ hướng dẫn các bạn làm một project cơ bản với Dagster, cụ thể là build một data pipeline đơn giản." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://ntphiep.github.io/info/" /><meta property="og:image" content="https://ntphiep.github.io/info/featured.jpg"/><meta property="article:section" content="" />
-<meta property="article:published_time" content="2023-11-21T03:57:10+07:00" />
-<meta property="article:modified_time" content="2023-11-21T03:57:10+07:00" />
+<meta property="og:url" content="https://ntphiep.github.io/posts/dagster_2/" /><meta property="og:image" content="https://ntphiep.github.io/posts/dagster_2/featured.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-08-01T03:43:26+07:00" />
+<meta property="article:modified_time" content="2023-08-01T03:43:26+07:00" />
 
 
   <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://ntphiep.github.io/info/featured.jpg"/>
-<meta name="twitter:title" content="About NTPH"/>
-<meta name="twitter:description" content="¡Hola a todos, soy Hiep! # Este es mi blog personal, aquí escribiré sobre temas como vida, programación, opiniones, emociones o temas varios&hellip;
-Gracias por leer😙.
-Lói chung là cái cuộc sống này buồn ~"/>
+<meta name="twitter:image" content="https://ntphiep.github.io/posts/dagster_2/featured.png"/>
+<meta name="twitter:title" content="Dagster Cơ Bản: Build Một Data Pipeline Đơn Giản Với Dagster"/>
+<meta name="twitter:description" content="Lời mở đầu # Trong bài trước mình đã giới thiệu với mọi người về Dagster, nó là gì, dùng để làm gì. Trong bài này mình sẽ hướng dẫn các bạn làm một project cơ bản với Dagster, cụ thể là build một data pipeline đơn giản."/>
 
   
   <script type="application/ld+json">
   [{
     "@context": "https://schema.org",
     "@type": "Article",
-    "articleSection": "Hiep\u0027s blog",
-    "name": "About NTPH",
-    "headline": "About NTPH",
+    "articleSection": "Posts",
+    "name": "Dagster Cơ Bản: Build Một Data Pipeline Đơn Giản Với Dagster",
+    "headline": "Dagster Cơ Bản: Build Một Data Pipeline Đơn Giản Với Dagster",
     
-    "abstract": "¡Hola a todos, soy Hiep! # Este es mi blog personal, aquí escribiré sobre temas como vida, programación, opiniones, emociones o temas varios\u0026hellip;\nGracias por leer😙.\nLói chung là cái cuộc sống này buồn ~",
+    "abstract": "Lời mở đầu # Trong bài trước mình đã giới thiệu với mọi người về Dagster, nó là gì, dùng để làm gì. Trong bài này mình sẽ hướng dẫn các bạn làm một project cơ bản với Dagster, cụ thể là build một data pipeline đơn giản.",
     "inLanguage": "en",
-    "url" : "https:\/\/ntphiep.github.io\/info\/",
+    "url" : "https:\/\/ntphiep.github.io\/posts\/dagster_2\/",
     "author" : {
       "@type": "Person",
       "name": "Hiep"
     },
     "copyrightYear": "2023",
-    "dateCreated": "2023-11-21T03:57:10\u002b07:00",
-    "datePublished": "2023-11-21T03:57:10\u002b07:00",
+    "dateCreated": "2023-08-01T03:43:26\u002b07:00",
+    "datePublished": "2023-08-01T03:43:26\u002b07:00",
     
-    "dateModified": "2023-11-21T03:57:10\u002b07:00",
+    "dateModified": "2023-08-01T03:43:26\u002b07:00",
     
-    
+    "keywords": ["python","data","dagster","data pipeline"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "39"
+    "wordCount": "808"
   }]
   </script>
 
@@ -518,7 +514,7 @@ Lói chung là cái cuộc sống này buồn ~"/>
 
     
     <div class="fixed inset-x-0 top-0 h-[800px] single_hero_background nozoom"
-    style="background-image:url(/info/featured.jpg);">
+    style="background-image:url(/posts/dagster_2/featured.png);">
     
 
 
@@ -548,6 +544,8 @@ Lói chung là cái cuộc sống này buồn ~"/>
   
     
   
+    
+  
   <li class="inline hidden">
     <a
       class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
@@ -557,11 +555,20 @@ Lói chung là cái cuộc sống này buồn ~"/>
   </li>
 
   
+  <li class="inline ">
+    <a
+      class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
+      href="/posts/"
+      >Posts</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+  
   <li class="inline hidden">
     <a
       class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
-      href="/info/"
-      >About NTPH</a
+      href="/posts/dagster_2/"
+      >Dagster Cơ Bản: Build Một Data Pipeline Đơn Giản Với Dagster</a
     ><span class="px-1 text-primary-500">/</span>
   </li>
 
@@ -570,7 +577,7 @@ Lói chung là cái cuộc sống này buồn ~"/>
 
     
     <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-      About NTPH
+      Dagster Cơ Bản: Build Một Data Pipeline Đơn Giản Với Dagster
     </h1>
     <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
       
@@ -612,12 +619,16 @@ Lói chung là cái cuộc sống này buồn ~"/>
 
 
 
+
+
+
+
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <span>39 words</span><span class="px-2 text-primary-500">&middot;</span><span>
+  <time datetime="2023-08-01 03:43:26 &#43;0700 &#43;07">2023-08-01</time><span class="px-2 text-primary-500">&middot;</span><span>808 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">4 mins</span><span class="px-2 text-primary-500">&middot;</span><span>
     
-    <span id="views_info\index.md" title="views">0</span> 
+    <span id="views_posts\dagster_2\index.md" title="views">0</span> 
     
     <span class="inline-block align-text-bottom">
 
@@ -629,7 +640,7 @@ Lói chung là cái cuộc sống này buồn ~"/>
 </span>
 </span><span class="px-2 text-primary-500">&middot;</span><span>
     
-    <span id="likes_info\index.md" title="likes">0</span> 
+    <span id="likes_posts\dagster_2\index.md" title="likes">0</span> 
     
     <span class="inline-block align-text-bottom">
 
@@ -699,6 +710,52 @@ Lói chung là cái cuộc sống này buồn ~"/>
   
   
   
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/python/&#34;,'_self');">
+    <span class="flex">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"
+  >
+    python
+  </span>
+</span>
+
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/data/&#34;,'_self');">
+    <span class="flex">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"
+  >
+    data
+  </span>
+</span>
+
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/dagster/&#34;,'_self');">
+    <span class="flex">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"
+  >
+    dagster
+  </span>
+</span>
+
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/data-pipeline/&#34;,'_self');">
+    <span class="flex">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"
+  >
+    data pipeline
+  </span>
+</span>
+
+  </span>
+  
+  
+  
   
 </div>
 
@@ -737,11 +794,9 @@ Lói chung là cái cuộc sống này buồn ~"/>
     class="min-w-[220px] py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li>
-      <ul>
-        <li><a href="#noviembre-2023-hiep"><code>¡Noviembre 2023, Hiep!</code></a></li>
-      </ul>
-    </li>
+    <li><a href="#i-cài-đặt-thư-viện-và-các-thứ-cần-thiết">I. Cài đặt thư viện và các thứ cần thiết</a></li>
+    <li><a href="#ii-định-nghĩa-các-asset">II. Định nghĩa các asset</a></li>
+    <li><a href="#iii-chạy-ui-cho-trực-quan-thôi-">III. Chạy UI cho trực quan thôi ~~</a></li>
   </ul>
 </nav>
   </div>
@@ -755,11 +810,9 @@ Lói chung là cái cuộc sống này buồn ~"/>
     class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li>
-      <ul>
-        <li><a href="#noviembre-2023-hiep"><code>¡Noviembre 2023, Hiep!</code></a></li>
-      </ul>
-    </li>
+    <li><a href="#i-cài-đặt-thư-viện-và-các-thứ-cần-thiết">I. Cài đặt thư viện và các thứ cần thiết</a></li>
+    <li><a href="#ii-định-nghĩa-các-asset">II. Định nghĩa các asset</a></li>
+    <li><a href="#iii-chạy-ui-cho-trực-quan-thôi-">III. Chạy UI cho trực quan thôi ~~</a></li>
   </ul>
 </nav>
   </div>
@@ -814,25 +867,175 @@ Lói chung là cái cuộc sống này buồn ~"/>
 
 
         <div class="max-w-prose mb-20">
-          <div id="hola-a-todos-soy-hiep" class="anchor"></div>
-<h1 class="relative group">¡Hola a todos, soy Hiep! 
+          <div id="lời-mở-đầu" class="anchor"></div>
+<h1 class="relative group">Lời mở đầu 
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#hola-a-todos-soy-hiep" aria-label="Anchor">#</a></span>        
+            style="text-decoration-line: none !important;" href="#l%e1%bb%9di-m%e1%bb%9f-%c4%91%e1%ba%a7u" aria-label="Anchor">#</a></span>        
     
 </h1>
-<p>Este es mi blog personal, aquí escribiré sobre temas como vida, programación, opiniones, emociones o temas varios&hellip;</p>
-<p>Gracias por leer😙.</p>
-<p>Lói chung là cái cuộc sống này buồn ~</p>
-<div id="noviembre-2023-hiep" class="anchor"></div>
-<h3 class="relative group"><code>¡Noviembre 2023, Hiep!</code> 
+<p>Trong bài trước mình đã giới thiệu với mọi người về <strong>Dagster</strong>, nó là gì, dùng để làm gì. Trong bài này mình sẽ hướng dẫn các bạn làm một project cơ bản với Dagster, cụ thể là build một data pipeline đơn giản. Ai quên thì <a href="https://viblo.asia/p/dagster-la-gi-dagster-co-ban-cho-nguoi-moi-bat-dau-WR5JRvKdJGv"   target="_blank">
+    kệ</a> 🤪!</p>
+<p>
+
+
+
+
+  <figure>
+    <img class="my-0 rounded-md" src="https://images.viblo.asia/fa2120ce-de91-4643-9dfd-dcb6d205062c.png" alt="" />
+    
+  </figure>
+
+</p>
+<div id="i-cài-đặt-thư-viện-và-các-thứ-cần-thiết" class="anchor"></div>
+<h2 class="relative group">I. Cài đặt thư viện và các thứ cần thiết 
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#noviembre-2023-hiep" aria-label="Anchor">#</a></span>        
+            style="text-decoration-line: none !important;" href="#i-c%c3%a0i-%c4%91%e1%ba%b7t-th%c6%b0-vi%e1%bb%87n-v%c3%a0-c%c3%a1c-th%e1%bb%a9-c%e1%ba%a7n-thi%e1%ba%bft" aria-label="Anchor">#</a></span>        
     
-</h3>
+</h2>
+<p>Để cài Dagster, bạn cần phải <a href="https://www.python.org/downloads/"   target="_blank">
+    cài đặt Python</a> bản 3.8 trở lên, sau đó có thể cài Dagster rất dễ dàng thông qua <strong>pip</strong>. Mở termianl và chạy câu lệnh sau:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">pip install dagster dagster-webserver dagit
+</span></span></code></pre></div><p>Vậy là bạn đã có thể cài Dagster với chỉ thao tác đơn giản. Bạn cũng có thể <a href="https://docs.dagster.io/community/contributing"   target="_blank">
+    cài Dagster thông qua source</a> của nó, cơ mà cái nào đơn giản thì làm :))</p>
+<div id="ii-định-nghĩa-các-asset" class="anchor"></div>
+<h2 class="relative group">II. Định nghĩa các asset 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#ii-%c4%91%e1%bb%8bnh-ngh%c4%a9a-c%c3%a1c-asset" aria-label="Anchor">#</a></span>        
+    
+</h2>
+<p>Trong <a href="https://viblo.asia/p/dagster-la-gi-dagster-co-ban-cho-nguoi-moi-bat-dau-WR5JRvKdJGv"   target="_blank">
+    bài trước</a>, chúng ta đã tìm hiểu <code>asset</code> là gì, tuy nhiên với một cách khá là lý thuyết. Hôm nay mình sẽ cho các bạn thấy <code>asset</code> thực sự là gì, cách implement nó trong code và trực quan của nó trông ra sao.</p>
+<p>Như đã nói ở bài trước, chúng ta sẽ tạo một project cơ bản để build một data pipeline với các giai đoạn:</p>
+<ul>
+<li>Downloads  top 10 stories từ HackerNews</li>
+<li>Tiến hành lọc và chọn ra các field cần thiết</li>
+<li>Ghi kết quả thu được vào Pandas Dataframe rồi cuối cùng lưu xuống file .csv</li>
+</ul>
+<br>
+<p>Mình đang sử dụng Ubuntu. Tạo một folder tên gì cũng được :)) ở đây mình đặt tên là <code>hello-dagster</code>, di chuyển vào folder và tạo một file Python, ở đây mình đặt là <code>hello-dagster.py</code>.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">mkdir hello-dagster
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> hello-dagster
+</span></span><span class="line"><span class="cl">touch hello-dagster.py
+</span></span></code></pre></div><p>Code trong file <code>hello-dagster.py</code>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">json</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">requests</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">dagster</span> <span class="kn">import</span> <span class="n">AssetExecutionContext</span><span class="p">,</span> <span class="n">MetadataValue</span><span class="p">,</span> <span class="n">asset</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nd">@asset</span>
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">hackernews_top_story_ids</span><span class="p">():</span>
+</span></span><span class="line"><span class="cl">    <span class="s2">&#34;&#34;&#34;
+</span></span></span><span class="line"><span class="cl"><span class="s2">        Get top 10 stories from the HackerNews top stories endpoint.
+</span></span></span><span class="line"><span class="cl"><span class="s2">        API Docs: https://github.com/HackerNews/API#new-top-and-best-stories.
+</span></span></span><span class="line"><span class="cl"><span class="s2">    &#34;&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">top_story_ids</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&#34;https://hacker-news.firebaseio.com/v0/topstories.json&#34;</span><span class="p">)</span><span class="o">.</span><span class="n">json</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&#34;hackernews_top_story_ids.json&#34;</span><span class="p">,</span> <span class="s2">&#34;w&#34;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="n">json</span><span class="o">.</span><span class="n">dump</span><span class="p">(</span><span class="n">top_story_ids</span><span class="p">[:</span><span class="mi">10</span><span class="p">],</span> <span class="n">f</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># asset dependencies can be inferred from parameter names</span>
+</span></span><span class="line"><span class="cl"><span class="nd">@asset</span><span class="p">(</span><span class="n">deps</span><span class="o">=</span><span class="p">[</span><span class="n">hackernews_top_story_ids</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">hackernews_top_stories</span><span class="p">(</span><span class="n">context</span><span class="p">:</span> <span class="n">AssetExecutionContext</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="s2">&#34;&#34;&#34;Get items based on story ids from the HackerNews items endpoint.&#34;&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&#34;hackernews_top_story_ids.json&#34;</span><span class="p">,</span> <span class="s2">&#34;r&#34;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="n">hackernews_top_story_ids</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">f</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">results</span> <span class="o">=</span> <span class="p">[]</span>
+</span></span><span class="line"><span class="cl">    <span class="k">for</span> <span class="n">item_id</span> <span class="ow">in</span> <span class="n">hackernews_top_story_ids</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="n">item</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;https://hacker-news.firebaseio.com/v0/item/</span><span class="si">{</span><span class="n">item_id</span><span class="si">}</span><span class="s2">.json&#34;</span><span class="p">)</span><span class="o">.</span><span class="n">json</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">        <span class="n">results</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">item</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">results</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">df</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s2">&#34;hackernews_top_stories.csv&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1"># recorded metadata can be customized</span>
+</span></span><span class="line"><span class="cl">    <span class="n">metadata</span> <span class="o">=</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="s2">&#34;num_records&#34;</span><span class="p">:</span> <span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="p">),</span>
+</span></span><span class="line"><span class="cl">        <span class="s2">&#34;preview&#34;</span><span class="p">:</span> <span class="n">MetadataValue</span><span class="o">.</span><span class="n">md</span><span class="p">(</span><span class="n">df</span><span class="p">[[</span><span class="s2">&#34;title&#34;</span><span class="p">,</span> <span class="s2">&#34;by&#34;</span><span class="p">,</span> <span class="s2">&#34;url&#34;</span><span class="p">]]</span><span class="o">.</span><span class="n">to_markdown</span><span class="p">()),</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">context</span><span class="o">.</span><span class="n">add_output_metadata</span><span class="p">(</span><span class="n">metadata</span><span class="o">=</span><span class="n">metadata</span><span class="p">)</span>
+</span></span></code></pre></div><p>Ở đoạn code trên, chúng ta define 2 function, function đầu tiên là <code>hackernews_top_story_ids</code> có nhiệm vụ fetch data (ID của các story) từ API của <a href="https://news.ycombinator.com/"   target="_blank">
+    Hacker News</a>, sau đó lưu vào file dưới dạng JSON, sau đó function thứ 2 là <code>hackernews_top_stories</code> sẽ đọc dữ liệu từ file JSON vừa lưu, sau đó tiếp tục collect data (dựa trên iD vừa thu được) và lưu vào một   <em><strong>Pandas  Dataframe</strong></em>. Đoạn code chức năng trong 2 hàm cũng dễ hiểu nên k cần giải thích gì nhỉ :)))</p>
+<p>Và bước quan trọng tiếp theo là thêm <strong>decorator</strong> <code>@asset</code> cho mỗi function. Và từ đó chúng ta đã có 2 assets lần lượt là <code>hackernews_top_story_ids</code> và <code>hackernews_top_stoies</code>. Ở decorator của function <code>hackernews_top_stories</code> có tham số <em><strong>deps</strong></em>, có nghĩa là asset  <code>hackernews_top_stoies</code> phụ thuộc vào asset <code>hackernews_top_story_ids</code> (phải có ID của story mới lấy được story và các thông tin khác). Ô cê cũng dễ nhỉ 😁</p>
+<div id="iii-chạy-ui-cho-trực-quan-thôi-" class="anchor"></div>
+<h2 class="relative group">III. Chạy UI cho trực quan thôi ~~ 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#iii-ch%e1%ba%a1y-ui-cho-tr%e1%bb%b1c-quan-th%c3%b4i-" aria-label="Anchor">#</a></span>        
+    
+</h2>
+<p>Từ từ, hãy đảm bảo bạn đã install cả Pandas nữa :)))</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">pip install pandas
+</span></span></code></pre></div><p>Ô cê rồi, di chuyển đển thư mục chứa  <code>hello-dagster.py</code> và chạy lệnh sau:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">dagster dev -f hello-dagster.py
+</span></span></code></pre></div><p>Lệnh này sẽ khởi động web server đến host Dagster&rsquo;s UI. Vậy là chúng ta đã thành công khởi động Dagster UI. Mặc định sẽ chạy ở cổng <strong>3000</strong> (có thể đổi cổng bằng option <em>-p</em> khi chạy command). Truy cập vào http://localhost:3000/ và web server  sẽ hiển thị.</p>
+<p>
+
+
+
+
+  <figure>
+    <img class="my-0 rounded-md" src="https://images.viblo.asia/475f9fde-44b1-4064-8284-abf52093cd49.png" alt="" />
+    
+  </figure>
+
+</p>
+<p>Và các bạn đã có thể thấy được UI của Dagster với 2 asset được hiển thị. Mũi tên từ <code>hackernews_top_story_ids</code> đến <code>hackernews_top_stoies</code> Bấm vào nút  <strong>Materialize All</strong> là các bạn có thể chạy thành công pipeline rồi. Data sẽ được collect về và lưu vào file JSON.</p>
+<p>Nhưng vẫn còn một thứ khá hay ho, đó là <em>Metadata</em>. Thông tin của asset sẽ được lưu trong metadata. Ở trong hàm <code>hackernews_top_stories</code> ta đã định nghĩa metadata và lưu các thông tin cơ bản của asset trong đó. Ở webserver, ta có thể truy cập và xem thông tin metadata bằng cách click vào asset, sau đó click vào <strong>[Show Markdown]</strong> ở phần <strong>Materialization in Last Run</strong></p>
+<p>
+
+
+
+
+  <figure>
+    <img class="my-0 rounded-md" src="https://images.viblo.asia/c3756435-3f36-441a-b5a7-5273a23f8338.png" alt="" />
+    
+  </figure>
+
+</p>
+<p>Và kết quả sẽ hiển thị như sau:</p>
+<p>
+
+
+
+
+  <figure>
+    <img class="my-0 rounded-md" src="https://images.viblo.asia/7400e5ad-f2e9-407d-a3b3-6495e08ba67c.png" alt="" />
+    
+  </figure>
+
+</p>
+<div id="lời-kết" class="anchor"></div>
+<h1 class="relative group">Lời kết 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#l%e1%bb%9di-k%e1%ba%bft" aria-label="Anchor">#</a></span>        
+    
+</h1>
+<p>Ô cê vậy là mình đã hướng dẫn các bạn build và chạy một cái pipeline đơn giản đầu tiên với Dagster. Những bài sau tiếp tục là kiến thức với Dagster nhé. Cảm ơn mọi người đã đọc!</p>
+<div id="reference" class="anchor"></div>
+<h1 class="relative group">Reference 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#reference" aria-label="Anchor">#</a></span>        
+    
+</h1>
+<p><a href="https://docs.dagster.io/getting-started/hello-dagster"   target="_blank">
+    https://docs.dagster.io/getting-started/hello-dagster</a></p>
 
         </div>
                 
@@ -844,8 +1047,8 @@ Lói chung là cái cuộc sống này buồn ~"/>
       </div>
      
      <script>
-        var oid = "views_info\\index.md"
-        var oid_likes = "likes_info\\index.md"
+        var oid = "views_posts\\dagster_2\\index.md"
+        var oid_likes = "likes_posts\\dagster_2\\index.md"
       </script>
       
       
@@ -864,28 +1067,30 @@ Lói chung là cái cuộc sống này buồn ~"/>
       <div class="flex justify-between pt-3">
         <span>
           
-            <a class="flex group mr-3" href="/shop/">
-              <span
-                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
-                >&larr;</span
-              >
-              <span
-                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
-                >&rarr;</span
-              >
+        </span>
+        <span>
+          
+            <a class="flex text-right group ml-3" href="/posts/dbt_1/">
               <span class="flex flex-col">
                 <span
                   class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >Shop</span
+                  >DBT (Data Build Tool) Là Gì? Những Thứ Cơ Bản Về DBT</span
                 >
                 <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
                   
+                    <time datetime="2023-08-05 03:43:26 &#43;0700 &#43;07">2023-08-05</time>
+                  
                 </span>
               </span>
+              <span
+                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
+                >&rarr;</span
+              >
+              <span
+                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
+                >&larr;</span
+              >
             </a>
-          
-        </span>
-        <span>
           
         </span>
       </div>

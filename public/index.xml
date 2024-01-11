@@ -9,34 +9,13 @@
     <copyright>© 2024 Hiep</copyright>
     <lastBuildDate>Wed, 22 Nov 2023 03:56:20 +0700</lastBuildDate><atom:link href="https://ntphiep.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Build a Data Pipeline</title>
-      <link>https://ntphiep.github.io/posts/etl-pipeline/</link>
+      <title>Dagster Là Gì? Dagster Cơ Bản Cho Người Mới Bắt Đầu</title>
+      <link>https://ntphiep.github.io/posts/dagster_1/</link>
       <pubDate>Wed, 22 Nov 2023 03:56:20 +0700</pubDate>
       
-      <guid>https://ntphiep.github.io/posts/etl-pipeline/</guid>
-      <description>Build a simple Data Pipeline witt Python # But I don&amp;rsquo;t know how :))</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://ntphiep.github.io/posts/etl-pipeline/featured.png" />
-    </item>
-    
-    <item>
-      <title>First Post</title>
-      <link>https://ntphiep.github.io/posts/first-post/</link>
-      <pubDate>Wed, 22 Nov 2023 03:56:20 +0700</pubDate>
-      
-      <guid>https://ntphiep.github.io/posts/first-post/</guid>
-      <description>Deptrai, k lói nhiều 😎</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://ntphiep.github.io/posts/first-post/featured.jpg" />
-    </item>
-    
-    <item>
-      <title>Hello World</title>
-      <link>https://ntphiep.github.io/posts/hello/</link>
-      <pubDate>Wed, 22 Nov 2023 03:43:26 +0700</pubDate>
-      
-      <guid>https://ntphiep.github.io/posts/hello/</guid>
-      <description>A basic python program # Print Hello World on the console
-Hello World (&amp;#34;print&amp;#34;) </description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://ntphiep.github.io/posts/hello/featured.png" />
+      <guid>https://ntphiep.github.io/posts/dagster_1/</guid>
+      <description>Lời mở đầu # Bài viết đầu tiên của mình trên này, chủ yếu là dịch lại và thêm thắt chút từ hiểu biết, mong mọi người ủng hộ nhe 🥲😁</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://ntphiep.github.io/posts/dagster_1/featured.png" />
     </item>
     
     <item>
@@ -46,7 +25,7 @@ Hello World (&amp;#34;print&amp;#34;) </description>
       
       <guid>https://ntphiep.github.io/info/</guid>
       <description>¡Hola a todos, soy Hiep! # Este es mi blog personal, aquí escribiré sobre temas como vida, programación, opiniones, emociones o temas varios&amp;hellip;
-Gracias por leer, jeje 😙.
+Gracias por leer😙.
 Lói chung là cái cuộc sống này buồn ~</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://ntphiep.github.io/info/featured.jpg" />
     </item>
@@ -59,6 +38,36 @@ Lói chung là cái cuộc sống này buồn ~</description>
       <guid>https://ntphiep.github.io/shop/</guid>
       <description>This is my shopp # </description>
       
+    </item>
+    
+    <item>
+      <title>[DBT] Kết Nối DBT Với Big Query</title>
+      <link>https://ntphiep.github.io/posts/dbt_2/</link>
+      <pubDate>Mon, 25 Sep 2023 03:43:26 +0700</pubDate>
+      
+      <guid>https://ntphiep.github.io/posts/dbt_2/</guid>
+      <description>Lời mở đầu # Ở bài trước - Giới thiệu DBT - mình đã đề cập đến việc dùng dbt kết nối và làm việc với các data platform khác.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://ntphiep.github.io/posts/dbt_2/featured.png" />
+    </item>
+    
+    <item>
+      <title>DBT (Data Build Tool) Là Gì? Những Thứ Cơ Bản Về DBT</title>
+      <link>https://ntphiep.github.io/posts/dbt_1/</link>
+      <pubDate>Sat, 05 Aug 2023 03:43:26 +0700</pubDate>
+      
+      <guid>https://ntphiep.github.io/posts/dbt_1/</guid>
+      <description>Lời mở đầu # Các bạn DE, DA khi tìm search từ khóa &amp;ldquo;dbt&amp;rdquo; trên Google thường sẽ ra nhiều kết quả khác nhau về những cụm từ có viết tắt là &amp;ldquo;dbt&amp;rdquo;, và không may thay là cái mà DE, DA cần lại thường không được suggest đầu tiên :))).</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://ntphiep.github.io/posts/dbt_1/featured.png" />
+    </item>
+    
+    <item>
+      <title>Dagster Cơ Bản: Build Một Data Pipeline Đơn Giản Với Dagster</title>
+      <link>https://ntphiep.github.io/posts/dagster_2/</link>
+      <pubDate>Tue, 01 Aug 2023 03:43:26 +0700</pubDate>
+      
+      <guid>https://ntphiep.github.io/posts/dagster_2/</guid>
+      <description>Lời mở đầu # Trong bài trước mình đã giới thiệu với mọi người về Dagster, nó là gì, dùng để làm gì. Trong bài này mình sẽ hướng dẫn các bạn làm một project cơ bản với Dagster, cụ thể là build một data pipeline đơn giản.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://ntphiep.github.io/posts/dagster_2/featured.png" />
     </item>
     
     <item>
