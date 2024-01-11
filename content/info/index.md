@@ -7,6 +7,7 @@ showDate = false
 showDateUpdated = false
 showReadingTime = false
 showTableOfContents = true
+showRelatedContent = false
 showRelatedPosts = false
 +++
 

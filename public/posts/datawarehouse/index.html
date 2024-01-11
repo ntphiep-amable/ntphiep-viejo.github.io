@@ -8,14 +8,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>[DBT] Kết Nối DBT Với Big Query &middot; Hiep&#39;s blog</title>
-  <meta name="title" content="[DBT] Kết Nối DBT Với Big Query &middot; Hiep&#39;s blog" />
+  <title>[Data Warehouse] Kiến Thức Tổng Quan Về Data Warehouse (Kho Dữ Liệu) &middot; Hiep&#39;s blog</title>
+  <meta name="title" content="[Data Warehouse] Kiến Thức Tổng Quan Về Data Warehouse (Kho Dữ Liệu) &middot; Hiep&#39;s blog" />
   
   <meta name="description" content="NTPH | Hiep" />
-  <meta name="keywords" content="python, data, dbt, bigquerry, " />
+  <meta name="keywords" content="data, datawarehouse, data science, " />
   
   
-  <link rel="canonical" href="https://ntphiep.github.io/posts/dbt_2/" />
+  <link rel="canonical" href="https://ntphiep.github.io/posts/datawarehouse/" />
   
   
   
@@ -63,18 +63,18 @@
   
   
   
-  <meta property="og:title" content="[DBT] Kết Nối DBT Với Big Query" />
-<meta property="og:description" content="Lời mở đầu # Ở bài trước - Giới thiệu DBT - mình đã đề cập đến việc dùng dbt kết nối và làm việc với các data platform khác." />
+  <meta property="og:title" content="[Data Warehouse] Kiến Thức Tổng Quan Về Data Warehouse (Kho Dữ Liệu)" />
+<meta property="og:description" content="Lời mở đầu # Bài này là mình dịch và sửa lại từ một bài viết thấy khá hay, chi tiết và đầy đủ. Link bài viết mình để ở dưới nhé!" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://ntphiep.github.io/posts/dbt_2/" /><meta property="og:image" content="https://ntphiep.github.io/posts/dbt_2/featured.png"/><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2023-09-25T03:43:26+07:00" />
-<meta property="article:modified_time" content="2023-09-25T03:43:26+07:00" />
+<meta property="og:url" content="https://ntphiep.github.io/posts/datawarehouse/" /><meta property="og:image" content="https://ntphiep.github.io/posts/datawarehouse/featured.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-09-24T03:43:26+07:00" />
+<meta property="article:modified_time" content="2023-09-24T03:43:26+07:00" />
 
 
   <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://ntphiep.github.io/posts/dbt_2/featured.png"/>
-<meta name="twitter:title" content="[DBT] Kết Nối DBT Với Big Query"/>
-<meta name="twitter:description" content="Lời mở đầu # Ở bài trước - Giới thiệu DBT - mình đã đề cập đến việc dùng dbt kết nối và làm việc với các data platform khác."/>
+<meta name="twitter:image" content="https://ntphiep.github.io/posts/datawarehouse/featured.png"/>
+<meta name="twitter:title" content="[Data Warehouse] Kiến Thức Tổng Quan Về Data Warehouse (Kho Dữ Liệu)"/>
+<meta name="twitter:description" content="Lời mở đầu # Bài này là mình dịch và sửa lại từ một bài viết thấy khá hay, chi tiết và đầy đủ. Link bài viết mình để ở dưới nhé!"/>
 
   
   <script type="application/ld+json">
@@ -82,26 +82,26 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "articleSection": "Posts",
-    "name": "[DBT] Kết Nối DBT Với Big Query",
-    "headline": "[DBT] Kết Nối DBT Với Big Query",
+    "name": "[Data Warehouse] Kiến Thức Tổng Quan Về Data Warehouse (Kho Dữ Liệu)",
+    "headline": "[Data Warehouse] Kiến Thức Tổng Quan Về Data Warehouse (Kho Dữ Liệu)",
     
-    "abstract": "Lời mở đầu # Ở bài trước - Giới thiệu DBT - mình đã đề cập đến việc dùng dbt kết nối và làm việc với các data platform khác.",
+    "abstract": "Lời mở đầu # Bài này là mình dịch và sửa lại từ một bài viết thấy khá hay, chi tiết và đầy đủ. Link bài viết mình để ở dưới nhé!",
     "inLanguage": "en",
-    "url" : "https:\/\/ntphiep.github.io\/posts\/dbt_2\/",
+    "url" : "https:\/\/ntphiep.github.io\/posts\/datawarehouse\/",
     "author" : {
       "@type": "Person",
       "name": "Hiep"
     },
     "copyrightYear": "2023",
-    "dateCreated": "2023-09-25T03:43:26\u002b07:00",
-    "datePublished": "2023-09-25T03:43:26\u002b07:00",
+    "dateCreated": "2023-09-24T03:43:26\u002b07:00",
+    "datePublished": "2023-09-24T03:43:26\u002b07:00",
     
-    "dateModified": "2023-09-25T03:43:26\u002b07:00",
+    "dateModified": "2023-09-24T03:43:26\u002b07:00",
     
-    "keywords": ["python","data","dbt","bigquerry"],
+    "keywords": ["data","datawarehouse","data science"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "1007"
+    "wordCount": "1992"
   }]
   </script>
 
@@ -514,7 +514,7 @@
 
     
     <div class="fixed inset-x-0 top-0 h-[800px] single_hero_background nozoom"
-    style="background-image:url(/posts/dbt_2/featured.png);">
+    style="background-image:url(/posts/datawarehouse/featured.png);">
     
 
 
@@ -567,8 +567,8 @@
   <li class="inline hidden">
     <a
       class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
-      href="/posts/dbt_2/"
-      >[DBT] Kết Nối DBT Với Big Query</a
+      href="/posts/datawarehouse/"
+      >[Data Warehouse] Kiến Thức Tổng Quan Về Data Warehouse (Kho Dữ Liệu)</a
     ><span class="px-1 text-primary-500">/</span>
   </li>
 
@@ -577,7 +577,7 @@
 
     
     <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-      [DBT] Kết Nối DBT Với Big Query
+      [Data Warehouse] Kiến Thức Tổng Quan Về Data Warehouse (Kho Dữ Liệu)
     </h1>
     <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
       
@@ -626,9 +626,9 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2023-09-25 03:43:26 &#43;0700 &#43;07">2023-09-25</time><span class="px-2 text-primary-500">&middot;</span><span>1007 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">5 mins</span><span class="px-2 text-primary-500">&middot;</span><span>
+  <time datetime="2023-09-24 03:43:26 &#43;0700 &#43;07">2023-09-24</time><span class="px-2 text-primary-500">&middot;</span><span>1992 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">10 mins</span><span class="px-2 text-primary-500">&middot;</span><span>
     
-    <span id="views_posts\dbt_2\index.md" title="views">0</span> 
+    <span id="views_posts\datawarehouse\index.md" title="views">0</span> 
     
     <span class="inline-block align-text-bottom">
 
@@ -640,7 +640,7 @@
 </span>
 </span><span class="px-2 text-primary-500">&middot;</span><span>
     
-    <span id="likes_posts\dbt_2\index.md" title="likes">0</span> 
+    <span id="likes_posts\datawarehouse\index.md" title="likes">0</span> 
     
     <span class="inline-block align-text-bottom">
 
@@ -710,17 +710,6 @@
   
   
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/python/&#34;,'_self');">
-    <span class="flex">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"
-  >
-    python
-  </span>
-</span>
-
-  </span>
-  
   <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/data/&#34;,'_self');">
     <span class="flex">
   <span
@@ -732,23 +721,23 @@
 
   </span>
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/dbt/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/datawarehouse/&#34;,'_self');">
     <span class="flex">
   <span
     class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"
   >
-    dbt
+    datawarehouse
   </span>
 </span>
 
   </span>
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/bigquerry/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/data-science/&#34;,'_self');">
     <span class="flex">
   <span
     class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"
   >
-    bigquerry
+    data science
   </span>
 </span>
 
@@ -794,14 +783,19 @@
     class="min-w-[220px] py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#các-setup-cần-thiết">Các setup cần thiết</a></li>
-    <li><a href="#kết-nối-dbt-đến-big-query">Kết nối dbt đến Big query</a>
+    <li><a href="#data-warehouse">Data Warehouse??</a></li>
+    <li><a href="#nguồn-gốc-của-data-warehouse">Nguồn gốc của Data warehouse</a></li>
+    <li><a href="#tại-sao-các-doang-nghiệp-cần-phải-có-data-warehouse">Tại sao các doang nghiệp cần phải có Data warehouse</a></li>
+    <li><a href="#tiềm-năng-trong-ứng-dụng-doanh-nghiệp">Tiềm năng trong ứng dụng doanh nghiệp</a>
       <ul>
-        <li><a href="#tạo-project-với-dbt">Tạo project với dbt</a></li>
-        <li><a href="#ý-nghĩa-các-file-và-folder-trong-thư-mục-project">Ý nghĩa các file và folder trong thư mục project</a></li>
-        <li><a href="#thực-hiện-kết-nối">Thực hiện kết nối</a></li>
+        <li><a href="#hợp-nhất-tất-cả-dữ-liệu-về-một-nơi">Hợp nhất tất cả dữ liệu về một nơi</a></li>
+        <li><a href="#khả-năng-kiểm-soát-các-quyền-truy-cập-và-loại-quyền-truy-cập-của-các-đối-tượng">Khả năng kiểm soát các quyền truy cập và loại quyền truy cập của các đối tượng</a></li>
+        <li><a href="#thích-hợp-cho-fast-reporting-báo-cáo-nhanh">Thích hợp cho Fast reporting (báo cáo nhanh)</a></li>
       </ul>
     </li>
+    <li><a href="#các-data-platform-hỗ-trợ-data-warehousing-workloads">Các Data platform hỗ trợ data warehousing workloads</a></li>
+    <li><a href="#data-warehouse-vs-data-lake">Data warehouse vs Data lake</a></li>
+    <li><a href="#kết-luận">Kết luận</a></li>
   </ul>
 </nav>
   </div>
@@ -815,14 +809,19 @@
     class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#các-setup-cần-thiết">Các setup cần thiết</a></li>
-    <li><a href="#kết-nối-dbt-đến-big-query">Kết nối dbt đến Big query</a>
+    <li><a href="#data-warehouse">Data Warehouse??</a></li>
+    <li><a href="#nguồn-gốc-của-data-warehouse">Nguồn gốc của Data warehouse</a></li>
+    <li><a href="#tại-sao-các-doang-nghiệp-cần-phải-có-data-warehouse">Tại sao các doang nghiệp cần phải có Data warehouse</a></li>
+    <li><a href="#tiềm-năng-trong-ứng-dụng-doanh-nghiệp">Tiềm năng trong ứng dụng doanh nghiệp</a>
       <ul>
-        <li><a href="#tạo-project-với-dbt">Tạo project với dbt</a></li>
-        <li><a href="#ý-nghĩa-các-file-và-folder-trong-thư-mục-project">Ý nghĩa các file và folder trong thư mục project</a></li>
-        <li><a href="#thực-hiện-kết-nối">Thực hiện kết nối</a></li>
+        <li><a href="#hợp-nhất-tất-cả-dữ-liệu-về-một-nơi">Hợp nhất tất cả dữ liệu về một nơi</a></li>
+        <li><a href="#khả-năng-kiểm-soát-các-quyền-truy-cập-và-loại-quyền-truy-cập-của-các-đối-tượng">Khả năng kiểm soát các quyền truy cập và loại quyền truy cập của các đối tượng</a></li>
+        <li><a href="#thích-hợp-cho-fast-reporting-báo-cáo-nhanh">Thích hợp cho Fast reporting (báo cáo nhanh)</a></li>
       </ul>
     </li>
+    <li><a href="#các-data-platform-hỗ-trợ-data-warehousing-workloads">Các Data platform hỗ trợ data warehousing workloads</a></li>
+    <li><a href="#data-warehouse-vs-data-lake">Data warehouse vs Data lake</a></li>
+    <li><a href="#kết-luận">Kết luận</a></li>
   </ul>
 </nav>
   </div>
@@ -885,168 +884,213 @@
             style="text-decoration-line: none !important;" href="#l%e1%bb%9di-m%e1%bb%9f-%c4%91%e1%ba%a7u" aria-label="Anchor">#</a></span>        
     
 </h1>
-<p>Ở bài trước - <a href="https://viblo.asia/p/dbt-data-build-tool-la-gi-nhung-thu-co-ban-ve-dbt-oK9VyxbxLQR"   target="_blank">
-    Giới thiệu DBT</a> - mình đã đề cập đến việc dùng dbt kết nối và làm việc với các data platform khác. Hôm nay mình sẽ kết nối đến và thực hiện một vài thao tác cơ bản đến <a href="https://console.cloud.google.com/bigquery"   target="_blank">
-    <strong>Google Big Query</strong></a> - một trong những Data platform phổ biến nhất thời điểm hiện tại.</p>
+<p>Bài này là mình dịch và sửa lại từ một bài viết thấy khá hay, chi tiết và đầy đủ. Link bài viết mình để ở dưới nhé!. Chúc mọi người một ngày vui vẻ  😁.</p>
+<div id="data-warehouse" class="anchor"></div>
+<h2 class="relative group">Data Warehouse?? 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#data-warehouse" aria-label="Anchor">#</a></span>        
+    
+</h2>
+<p><strong>Data Warehouse (Kho dữ liệu)</strong> là một hệ thống quản lý dữ liệu được sử dụng để lưu trữ và tính toán dữ liệu, cho phép thực hiện các hoạt động phân tích như chuyển đổi (transforming) và chia sẻ (sharing) dữ liệu. Nó giúp doanh nghiệp nắm bắt và lưu trữ dữ liệu từ các nguồn bên ngoài. Các kỹ sư phân tích và nhà phân tích dữ liệu sử dụng nó để truy vấn các tập dữ liệu bằng SQL, biến chúng thành các mô hình (models) và báo cáo dữ liệu mạnh mẽ. Data warehouse là nguồn trung tâm cho bất kỳ ngăn xếp dữ liệu hiện đại nào. Dữ liệu được nhập, chuyển đổi và chia sẻ (imported, transformed, and shared) với các công cụ khác từ kho.</p>
+<p>Hiện tại, có 2 loại data warehouse chính: <strong>On-prem (tại chỗ)</strong> và <strong>Cloud (nền tảng đám mây)</strong>. On-prem warehouse là một vị trí thực tế nơi các công ty cần duy trì phần cứng và phần mềm để lưu trữ dữ liệu. Trong khi đó, cloud warehouse có sẵn ở mọi nơi và không bao gồm vị trí thực tế bạn cần truy cập, tuy nhiên, bạn sẽ phải trả tiền để sử dụng không gian lưu trữ và sức mạnh tính toán do một công ty thứ 3 khác cung cấp và duy trì. Có thể kể đến như <a href="https://aws.amazon.com/"   target="_blank">
+    AWS (Amazon Web Services)</a>, <a href="https://cloud.google.com"   target="_blank">
+    GCP (Google Cloud Platform)</a>, &hellip;</p>
 <p>
 
 
 
 
   <figure>
-    <img class="my-0 rounded-md" src="https://images.viblo.asia/38e57c2e-2ae4-4c34-b5db-b6289bc3e070.png" alt="image.png" />
+    <img class="my-0 rounded-md" src="https://images.viblo.asia/e904f257-0043-4553-8336-ea9adcc1f432.png" alt="image.png" />
     
   </figure>
 
 </p>
-<p>Trong bài, mình sẽ dùng một dataset mẫu để mô phỏng quá trình. Dataset tên là <code>jaffle_shop</code>. Nếu bạn thực hành với dataset khác, thao tác tương tự 🥲.</p>
-<div id="các-setup-cần-thiết" class="anchor"></div>
-<h2 class="relative group">Các setup cần thiết 
+<div id="nguồn-gốc-của-data-warehouse" class="anchor"></div>
+<h2 class="relative group">Nguồn gốc của Data warehouse 
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#c%c3%a1c-setup-c%e1%ba%a7n-thi%e1%ba%bft" aria-label="Anchor">#</a></span>        
+            style="text-decoration-line: none !important;" href="#ngu%e1%bb%93n-g%e1%bb%91c-c%e1%bb%a7a-data-warehouse" aria-label="Anchor">#</a></span>        
     
 </h2>
-<p>Để có thể sử dụng một công cụ nào đó, đương nhiên là trước tiên bạn phải cài đặt rồi 😄</p>
+<p>Mặc dù dữ liệu đã được lưu trữ trong suốt lịch sử nhưng phải đến những năm 1980, công nghệ mới bắt đầu tăng tốc và Data warehouse thức đầu tiên được tạo ra. Đó là một on-prem warehouse bao gồm rất nhiều storage towers (tháp lưu trữ) và các vi xử lý máy tính, chiếm rất nhiều không gian. Và như bạn có thể tưởng tượng, điều này gây ra rất nhiều vấn đề. Nó không chỉ chiếm nhiều không gian vật lý mà nhân viên còn phải bảo trì phần cứng và phần mềm của nhưng thiết bị cấu hình warehouse này. Điều này nhanh chóng trở nên tốn kém và không thực tế đối với các công ty nhỏ hơn không có ngân sách hoặc không gian.</p>
+<p>Khi <code>Amazon</code> bắt đầu mở rộng quy mô kho dữ liệu tại chỗ để hỗ trợ hoạt động kinh doanh của mình, họ nhận thấy cơ hội bán năng lực tính toán cho các doanh nghiệp khác để tiết kiệm chi phí :))). Đây là lúc <code>Redshift</code>, sản phẩm cloud data warehouse của<code>Amazon</code>, ra đời. Ngay sau đó, những gã khổng lồ công nghệ khác như <code>Google</code> và <code>Microsoft</code> cũng đang xây dựng cơ sở hạ tầng dữ liệu cũng làm theo.</p>
+<p>Giờ đây, bạn có thể  tiếp cận và sử dụng sức mạnh của cloud warehouse ở bất cứ đâu. Bạn không cần phải tự mình duy trì cơ sở hạ tầng nữa mà có thể trả tiền cho một công ty để làm việc này cho bạn. Điều này rẻ hơn so với on-prem phải trả để duy trì hệ thống và cho phép khả năng dữ liệu nhanh hơn.</p>
+<div id="tại-sao-các-doang-nghiệp-cần-phải-có-data-warehouse" class="anchor"></div>
+<h2 class="relative group">Tại sao các doang nghiệp cần phải có Data warehouse 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#t%e1%ba%a1i-sao-c%c3%a1c-doang-nghi%e1%bb%87p-c%e1%ba%a7n-ph%e1%ba%a3i-c%c3%b3-data-warehouse" aria-label="Anchor">#</a></span>        
+    
+</h2>
+<p>Data warehouse đã từng được cho không thực tế do chi phí liên quan đến chúng. Giờ đây, kho lưu trữ đám mây cung cấp chúng cho gần như tất cả mọi người, chúng mang lại rất nhiều lợi ích cho doanh nghiệp. Kho đám mây cho phép khả năng mở rộng, tính sẵn có, tiết kiệm chi phí và tăng cường bảo mật - tất cả đều do chính nhà cung cấp xử lý. Các tiện ích có thể được liệt kê:</p>
 <ul>
-<li>Với dbt, mình đã hướng dẫn cài dbt ở <a href="https://viblo.asia/p/dbt-data-build-tool-la-gi-nhung-thu-co-ban-ve-dbt-oK9VyxbxLQR#_i-dbt-la-gi-1"   target="_blank">
-    bài trước</a>, dùng pip đơn giản:</li>
+<li><strong>Scalability</strong> (Khả năng mở rộng): Data warehouse cho phép bạn mở rộng quy mô tính toán lên hoặc xuống tùy thuộc vào tốc độ bạn cần chạy các phép biến đổi của mình và số tiền bạn sẵn sàng chi tiêu. Bạn cũng có thể bật hoặc tắt tài nguyên máy tính để tiết kiệm chi phí</li>
+<li><strong>Availability</strong> (Sẵn có): Data warehouse luôn có sẵn. Mặc dù độ trễ có thể thay đổi tùy theo vị trí nguồn và đích nhưng dữ liệu của bạn có thể được truy cập ở mọi nơi, mọi lúc, rất tiện lợi. Điều này trở nên lý tưởng trong xã hội hiện đại, nơi mọi người có thể làm việc từ bất cứ đâu.</li>
+<li><strong>Cost savings</strong> (Tiết kiệm chi phí): So với on-prem warehouse, cloud warehouse tiết kiệm hơn nhiều vì bạn không còn cần phải bảo trì tất cả cơ sở hạ tầng nên bạn có thể tiết kiệm chi phí liên quan đến bảo trì. Các công ty kho dữ liệu quản lý rất nhiều dữ liệu nên họ có thể tiết kiệm chi phí mà bạn không thể làm được.</li>
+<li><strong>Security</strong> (Tính bảo mật): Data warehouse cung cấp các tính năng bảo mật nâng cao để đảm bảo dữ liệu của bạn luôn được bảo mật. Nó thường trực tiếp xử lý các chiến lược tuân thủ nhất định cần thiết đối với từng loại dữ liệu khác nhau , giúp bạn không cần phải tự mình thực hiện việc này. Nó cũng có các tính năng như vai trò và người dùng giúp bạn kiểm soát ai có quyền truy cập vào dữ liệu của mình. Nhưng chúng ta sẽ đi sâu vào vấn đề này sau.</li>
 </ul>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">pip install dbt-core dbt-bigquery
-</span></span></code></pre></div><p>Sau đó, kiểm tra lại với lệnh:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">dbt --version
-</span></span></code></pre></div><ul>
-<li>Với Big query, mình sẽ nói ngắn gọn các thao tác cần thiết, chi tiết các bạn có thể tìm đọc các trang hướng dẫn Big Query cơ bản&hellip; Trước hết, bạn cần phải có tài khoản Google trước, sau đó truy cập <a href="https://console.cloud.google.com/bigquery"   target="_blank">
-    BigQuery Console</a>, tạo một project mới đặt tên gì cũng được. Sau đó, hãy thử với câu query cơ bản sau khi tạo project:</li>
-</ul>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="line"><span class="cl"><span class="k">select</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="k">from</span><span class="w"> </span><span class="o">`</span><span class="n">dbt</span><span class="o">-</span><span class="n">tutorial</span><span class="p">.</span><span class="n">jaffle_shop</span><span class="p">.</span><span class="n">customers</span><span class="o">`</span><span class="p">;</span><span class="w">
-</span></span></span></code></pre></div><p>Nếu không có gì sai thì result sẽ như sau:
-
-
-
-
-
-  <figure>
-    <img class="my-0 rounded-md" src="https://images.viblo.asia/fdc23372-b6cd-49da-b384-45afcc47cef4.png" alt="image.png" />
-    
-  </figure>
-
-</p>
-<p>Sau khi thử chạy thành công trên console của Big query, hãy tạo một <code>dataset</code> mới (<a href="https://cloud.google.com/bigquery/docs/datasets#create-dataset"   target="_blank">
-    hướng dẫn</a>), ở đây mình đặt là <code>jaffle_shop</code>. Ai đã làm việc với Big query sẽ biết <code>dataset</code> tương đương với <code>database</code> hoặc <code>schema</code> trong các hệ cơ sở dữ liệu cơ bản. Các bước tiếp theo là <a href="https://docs.getdbt.com/quickstarts/bigquery?step=4"   target="_blank">
-    Tạo Credential Trong Big query</a>, cuối cùng là download keyfile dạng JSON về. Keyfile JSON có format như sau:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line"><span class="cl"><span class="p">{</span>
-</span></span><span class="line"><span class="cl">  <span class="nt">&#34;type&#34;</span><span class="p">:</span> <span class="s2">&#34;service_account&#34;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">  <span class="nt">&#34;project_id&#34;</span><span class="p">:</span> <span class="s2">&#34;PROJECT_ID&#34;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">  <span class="nt">&#34;private_key_id&#34;</span><span class="p">:</span> <span class="s2">&#34;KEY_ID&#34;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">  <span class="nt">&#34;private_key&#34;</span><span class="p">:</span> <span class="s2">&#34;-----BEGIN PRIVATE KEY-----\nPRIVATE_KEY\n-----END PRIVATE KEY-----\n&#34;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">  <span class="nt">&#34;client_email&#34;</span><span class="p">:</span> <span class="s2">&#34;SERVICE_ACCOUNT_EMAIL&#34;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">  <span class="nt">&#34;client_id&#34;</span><span class="p">:</span> <span class="s2">&#34;CLIENT_ID&#34;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">  <span class="nt">&#34;auth_uri&#34;</span><span class="p">:</span> <span class="s2">&#34;https://accounts.google.com/o/oauth2/auth&#34;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">  <span class="nt">&#34;token_uri&#34;</span><span class="p">:</span> <span class="s2">&#34;https://accounts.google.com/o/oauth2/token&#34;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">  <span class="nt">&#34;auth_provider_x509_cert_url&#34;</span><span class="p">:</span> <span class="s2">&#34;https://www.googleapis.com/oauth2/v1/certs&#34;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">  <span class="nt">&#34;client_x509_cert_url&#34;</span><span class="p">:</span> <span class="s2">&#34;https://www.googleapis.com/robot/v1/metadata/x509/SERVICE_ACCOUNT_EMAIL&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><p>Vậy là OK phần setup chuẩn bị các thứ rồi 😁, giờ hãy đến phần chính nào!</p>
-<div id="kết-nối-dbt-đến-big-query" class="anchor"></div>
-<h2 class="relative group">Kết nối dbt đến Big query 
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#k%e1%ba%bft-n%e1%bb%91i-dbt-%c4%91%e1%ba%bfn-big-query" aria-label="Anchor">#</a></span>        
-    
-</h2>
-<div id="tạo-project-với-dbt" class="anchor"></div>
-<h3 class="relative group">Tạo project với dbt 
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#t%e1%ba%a1o-project-v%e1%bb%9bi-dbt" aria-label="Anchor">#</a></span>        
-    
-</h3>
-<p>Di chuyển đến thư mục bạn muốn tạo project, chạy lệnh sau:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">dbt init jaffle_shop
-</span></span></code></pre></div><p>Như đã nói, mình sẽ lấy tên project là <code>jaffle_sshop</code>, bạn có thể đặt tên khác tùy ý. Hãy mở project vừa tạo lên, ở đây mình sử dụng VS-Code. Bạn sẽ thấy những file và folder được tạo trong thư mục project, mỗi file và folder đảm nhận chức năng khác nhau và cần thiết cho project.</p>
 <p>
 
 
 
 
   <figure>
-    <img class="my-0 rounded-md" src="https://images.viblo.asia/b9db02be-e6e2-4f2e-9f3e-6fb433e6b4d8.png" alt="image.png" />
+    <img class="my-0 rounded-md" src="https://images.viblo.asia/2c048d0a-ef16-4663-8420-20bb4c56d770.png" alt="image.png" />
     
   </figure>
 
 </p>
-<div id="ý-nghĩa-các-file-và-folder-trong-thư-mục-project" class="anchor"></div>
-<h3 class="relative group">Ý nghĩa các file và folder trong thư mục project 
+<div id="tiềm-năng-trong-ứng-dụng-doanh-nghiệp" class="anchor"></div>
+<h2 class="relative group">Tiềm năng trong ứng dụng doanh nghiệp 
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%c3%bd-ngh%c4%a9a-c%c3%a1c-file-v%c3%a0-folder-trong-th%c6%b0-m%e1%bb%a5c-project" aria-label="Anchor">#</a></span>        
+            style="text-decoration-line: none !important;" href="#ti%e1%bb%81m-n%c4%83ng-trong-%e1%bb%a9ng-d%e1%bb%a5ng-doanh-nghi%e1%bb%87p" aria-label="Anchor">#</a></span>        
     
-</h3>
-<ul>
-<li><strong><a href="https://docs.getdbt.com/docs/build/analyses"   target="_blank">
-    analyses</a></strong>: thư mục hỗ trợ tổ chức các truy vấn SQL phân tích trong dự án, chứa các script sql mà analytic cần, cơ mà nó chỉ compile chứ không có excute.</li>
-<li><strong><a href="https://docs.getdbt.com/docs/build/jinja-macros"   target="_blank">
-    macros</a></strong>: chứa các block code có thể tái sử dụng nhiều lần, tiện lợi đỡ phí thời gian, viết 1 lần rồi thích gọi ở đâu cũng được.</li>
-<li><strong><a href="https://docs.getdbt.com/docs/build/models"   target="_blank">
-    models</a></strong>: là thư mục quan trọng nhất của project, đơn giản bởi vì nó là folder chứa các model :))). Mỗi file .sql trong folder này là một model (có thể là table, view, &hellip;).  Khi chạy <code>dbt run</code> sẽ tự generate model và insert data.</li>
-<li><strong><a href="https://docs.getdbt.com/docs/build/seeds"   target="_blank">
-    seeds</a></strong>: chứa các file .csv, static data, giúp load data từ file vào các data platform thuận tiện hơn.</li>
-<li><strong><a href="https://docs.getdbt.com/docs/build/snapshots"   target="_blank">
-    snapshots</a></strong>: giúp chứa snapshot data của một table tại một thời điểm nào đó nếu dữ liệu các bảng có thể bị thay đổi.</li>
-<li><strong><a href="https://docs.getdbt.com/docs/build/tests"   target="_blank">
-    tests</a></strong>: đơn giản như cái tên 😀, chứa các query bạn dùng để test các model và resource. Khi chạy <code>dbt test</code> sẽ giúp bạn test tự động.</li>
-<li><strong><a href="https://docs.getdbt.com/docs/build/projects#project-configuration"   target="_blank">
-    dbt_project.yml</a></strong>: file config <strong>quan trọng không thể thiếu</strong> của project, chứa các thông tin như <code>name</code>, <code>version</code>, <code>profile</code>, <code>path</code>, <code>vars</code>, &hellip; cần thiết cho chạy dự án.</li>
-</ul>
-<p>Tạm thời khi mới khởi tạo project thì chỉ có vậy, nhưng sau khi bạn thực hiện kết nối, sẽ có thêm vài file và folder sinh ra thêm như <code>seed</code>,  <code>logs</code>, <code>target</code>, &hellip; Cơ mà lười giải thích nên để sau nhé 😌</p>
-<div id="thực-hiện-kết-nối" class="anchor"></div>
-<h3 class="relative group">Thực hiện kết nối 
+</h2>
+<p>Các doanh nghiệp có thể tận dụng kho dữ liệu vì nhiều lý do khác nhau. Hầu hết những lý do này đều giúp tiết kiệm thời gian và tiền bạc cho doanh nghiệp, dù trực tiếp hay gián tiếp.</p>
+<div id="hợp-nhất-tất-cả-dữ-liệu-về-một-nơi" class="anchor"></div>
+<h3 class="relative group">Hợp nhất tất cả dữ liệu về một nơi 
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#th%e1%bb%b1c-hi%e1%bb%87n-k%e1%ba%bft-n%e1%bb%91i" aria-label="Anchor">#</a></span>        
+            style="text-decoration-line: none !important;" href="#h%e1%bb%a3p-nh%e1%ba%a5t-t%e1%ba%a5t-c%e1%ba%a3-d%e1%bb%af-li%e1%bb%87u-v%e1%bb%81-m%e1%bb%99t-n%c6%a1i" aria-label="Anchor">#</a></span>        
     
 </h3>
-<p>DBT sẽ thực hiện kết nối đến <a href="https://viblo.asia/p/data-warehouse-kien-thuc-tong-quan-ve-data-warehouse-kho-du-lieu-Rk74aoXvLeO"   target="_blank">
-    Data warehouse</a> sử dụng <a href="https://docs.getdbt.com/docs/core/connect-data-platform/connection-profiles"   target="_blank">
-    profile</a>. Nó được định nghĩa trong một file gọi là <code>profiles.yml</code>, trong đó chứa tất cả các thông tin chi tiết cần thiết để thực hiện kết nối đến data warehouse. Ở thư mục <code>~/.dbt</code> (nếu là linux) hoặc <code>C:\Users\Username\.dbt</code> (nếu là windows), bạn hãy tạo file <code>profiles.yml</code>. Sau đó, hãy copy file JSON chứa key đã tải ở phần trên vào cùng thư mục này, tiếp theo hãy copy và sửa các giá trị cho phù hợp.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">jaffle_shop</span><span class="p">:</span><span class="w"> </span><span class="c"># this needs to match the profile in your dbt_project.yml file</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">target</span><span class="p">:</span><span class="w"> </span><span class="l">dev</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">outputs</span><span class="p">:</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">dev</span><span class="p">:</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="l">bigquery</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">method</span><span class="p">:</span><span class="w"> </span><span class="l">service-account</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">keyfile</span><span class="p">:</span><span class="w">  </span><span class="c"># replace this with the full path to your keyfile</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">project</span><span class="p">:</span><span class="w">  </span><span class="c"># Replace this with your project id</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">dataset</span><span class="p">:</span><span class="w">  </span><span class="c"># Replace this with dbt_your_name</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">threads</span><span class="p">:</span><span class="w"> </span><span class="m">1</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">timeout_seconds</span><span class="p">:</span><span class="w"> </span><span class="m">300</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">location</span><span class="p">:</span><span class="w"> </span><span class="l">US</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">priority</span><span class="p">:</span><span class="w"> </span><span class="l">interactive</span><span class="w">
-</span></span></span></code></pre></div><ul>
-<li><strong>Note: Tại sao lại để <code>profiles.yml</code> ngoài thư mục project?</strong> Đó là bởi vì lý do hạn chế các <code>sensitive credentials</code>(các thông tin nhạy cảm) bị check bởi các công cụ version control. Thực ra thì bạn có thể để chung với thư mục project cũng được với điều kiện là nên sử dụng các environment variables (biến môi trường) để load các  <code>sensitive credentials</code>. Còn nếu để ngoài thì dbt sẽ tự động tìm trong thư mục <code>~/.dbt</code>.</li>
-</ul>
-<p>Ô cê, cuối cùng hãy vào thư mục chứa project và chạy:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">dbt debug
-</span></span></code></pre></div><p>Và nếu kết quả hiển thị như lày là bạn đã kết nối thành công rồi!!</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">Connection test: OK connection ok
-</span></span></code></pre></div><p>
+<p>Thay vì để tất cả dữ liệu của bạn trải rộng trên các nền tảng khác nhau, dữ liệu đó có sẵn cho bạn ở một nơi. Điều này cho phép bạn chuẩn hóa tất cả các metrics (chỉ số cốt lõi) và definitions (định nghĩa dữ liệu) của mình, thay vì phụ thuộc vào các chỉ số được tính toán bởi các nền tảng như <code>Google</code> và <code>Facebook</code>. Nếu bạn thấy rằng các số liệu khác nhau không phù hợp trên các nền tảng thì data warehouse sẽ đóng vai trò là nguồn đáng tin cậy cho số liệu phù hợp. Thay vì dựa vào các nền tảng bên ngoài, giờ đây bạn đã có một nền tảng tập trung tất cả dữ liệu của mình.</p>
+<p>Chưa kể, bạn sẽ khiến kỹ sư (DE) và nhà phân tích dữ liệu (DA) của mình phải đau đầu. Nếu không, họ sẽ phải lấy dữ liệu cần thiết từ nhiều nguồn khác nhau theo cách thủ công. Việc không có một nguồn thông tin chính xác duy nhất sẽ làm giảm chất lượng dữ liệu của bạn, lãng phí thời gian của nhóm dữ liệu và gây khó khăn cho việc kết hợp dữ liệu từ các nguồn khác nhau.</p>
+<div id="khả-năng-kiểm-soát-các-quyền-truy-cập-và-loại-quyền-truy-cập-của-các-đối-tượng" class="anchor"></div>
+<h3 class="relative group">Khả năng kiểm soát các quyền truy cập và loại quyền truy cập của các đối tượng 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#kh%e1%ba%a3-n%c4%83ng-ki%e1%bb%83m-so%c3%a1t-c%c3%a1c-quy%e1%bb%81n-truy-c%e1%ba%adp-v%c3%a0-lo%e1%ba%a1i-quy%e1%bb%81n-truy-c%e1%ba%adp-c%e1%bb%a7a-c%c3%a1c-%c4%91%e1%bb%91i-t%c6%b0%e1%bb%a3ng" aria-label="Anchor">#</a></span>        
+    
+</h3>
+<p>Data warehouse có các tính năng bảo mật mở rộng cho phép bạn kiểm soát ai có quyền truy cập vào nội dung gì. Bạn có khả năng cấp cho ai đó các quyền ít hoặc nhiều tùy theo ý muốn của bạn. Nó cũng cung cấp cho bạn khả năng tạo người dùng và gán vai trò cho họ. Mỗi vai trò có bộ quyền riêng đối với cơ sở dữ liệu và bảng mà nó có thể xem. Sau đó, bạn cũng có thể chọn người được phép thực hiện query (truy vấn) các bảng đó hoặc thậm chí update (cập nhật) và delete (xóa) chúng.</p>
+<p>Khi bất kỳ ai trong tổ chức của bạn có thể dễ dàng truy cập vào dữ liệu của bạn, điều tồi tệ có thể xảy ra. Nguy cơ dữ liệu quan trọng có thể bị xóa, chỉnh sửa sai hoặc truy cập không thích hợp. Người dùng, vai trò, chính sách và biện pháp bảo mật của kho dữ liệu có thể giúp đảm bảo dữ liệu nằm trong tay đúng người.</p>
+<div id="thích-hợp-cho-fast-reporting-báo-cáo-nhanh" class="anchor"></div>
+<h3 class="relative group">Thích hợp cho Fast reporting (báo cáo nhanh) 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#th%c3%adch-h%e1%bb%a3p-cho-fast-reporting-b%c3%a1o-c%c3%a1o-nhanh" aria-label="Anchor">#</a></span>        
+    
+</h3>
+<p>Vì tất cả dữ liệu của bạn đều nằm ở cùng một nơi nên nó cho phép báo cáo nhanh hơn so với việc lấy dữ liệu từ nhiều nguồn khác nhau. Vị trí trung tâm cho phép bạn truy cập và truy vấn nhanh chóng hàng triệu hàng dữ liệu, cho phép thực hiện chuyển đổi và báo cáo nhanh hơn nhiều.</p>
+<div id="các-data-platform-hỗ-trợ-data-warehousing-workloads" class="anchor"></div>
+<h2 class="relative group">Các Data platform hỗ trợ data warehousing workloads 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#c%c3%a1c-data-platform-h%e1%bb%97-tr%e1%bb%a3-data-warehousing-workloads" aria-label="Anchor">#</a></span>        
+    
+</h2>
+<p>Hiện nay có nhiều các nền tảng cung cấp, hỗ trợ Data warehouse dưới dạng dịch vụ, có thể kể đến như:</p>
+<table>
+<thead>
+<tr>
+<th><strong>Data platform</strong></th>
+<th><strong>Mô tả</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Snowflake</code> 
 
 
 
 
   <figure>
-    <img class="my-0 rounded-md" src="https://images.viblo.asia/7a3a3832-36fc-4e82-bee8-afb4065f1f44.png" alt="image.png" />
+    <img class="my-0 rounded-md" src="https://images.viblo.asia/90b8da35-1fe9-492f-a4e1-0044edfb0799.png" alt="image.png" />
     
   </figure>
 
-</p>
-<p>Vậy là thành công kết nối dbt đến Big Query rồi, các bạn có thể thực hiện các công việc như build model, load data, chạy test, schedule jobs, &hellip;Có thể mình sẽ hướng dẫn ở những bài tiếp theo. Rất đơn giản phải khum 😉. Chúc các bạn kết nối thành công nhé!</p>
+</td>
+<td>Snowflake là một nền tảng được quản lý hoàn toàn để lưu trữ dữ liệu, hồ dữ liệu (data lake), kỹ thuật dữ liệu, khoa học dữ liệu và phát triển ứng dụng dữ liệu.</td>
+</tr>
+<tr>
+<td><code>Databricks</code> 
+
+
+
+
+  <figure>
+    <img class="my-0 rounded-md" src="https://images.viblo.asia/9d73e77a-6492-4124-b2b4-954ba456816b.png" alt="image.png" />
+    
+  </figure>
+
+</td>
+<td>Databricks là một nền tảng phân tích dữ liệu, kỹ thuật dữ liệu và khoa học dữ liệu cộng tác dựa trên đám mây, kết hợp những gì tốt nhất của data warehouse và data lake vào kiến trúc lakehouse 😀.</td>
+</tr>
+<tr>
+<td><code>Google BigQuery</code> 
+
+
+
+
+  <figure>
+    <img class="my-0 rounded-md" src="https://images.viblo.asia/9eb7ddf0-e926-4621-8bbb-c725e6819096.png" alt="image.png" />
+    
+  </figure>
+
+</td>
+<td>Google BigQuery là một serverless (không máy chủ) warehouse, có khả năng mở rộng cao, đi kèm với công cụ truy vấn tích hợp..</td>
+</tr>
+<tr>
+<td><code>Amazon Redshift</code> 
+
+
+
+
+  <figure>
+    <img class="my-0 rounded-md" src="https://images.viblo.asia/fc0d1bee-09e9-422c-ad48-0cd16b6f67d8.png" alt="image.png" />
+    
+  </figure>
+
+</td>
+<td>Amazon Redshift là data warehouse dựa trên đám mây có quy mô petabyte được quản lý hoàn toàn, được thiết kế để lưu trữ và phân tích tập dữ liệu quy mô lớn (biggg data).</td>
+</tr>
+<tr>
+<td><code>Postgres</code> 
+
+
+
+
+  <figure>
+    <img class="my-0 rounded-md" src="https://images.viblo.asia/dec421af-eeef-42e0-8b0b-e30d1f3fbcde.png" alt="image.png" />
+    
+  </figure>
+
+</td>
+<td>PostgreSQL là một cơ sở dữ liệu quan hệ mã nguồn mở cấp doanh nghiệp nâng cao hỗ trợ cả truy vấn SQL (quan hệ) và JSON (không quan hệ).</td>
+</tr>
+</tbody>
+</table>
+<div id="data-warehouse-vs-data-lake" class="anchor"></div>
+<h2 class="relative group">Data warehouse vs Data lake 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#data-warehouse-vs-data-lake" aria-label="Anchor">#</a></span>        
+    
+</h2>
+<p>Data lake (hồ dữ liệu) là một hệ thống nơi bạn lưu trữ, xử lý và truy vấn dữ liệu phi cấu trúc, bán cấu trúc và có cấu trúc ở hầu hết mọi quy mô. Sự khác biệt chính giữa data warehouse và data lake là loại và cách lưu trữ dữ liệu. Data warehouse chứa dữ liệu có cấu trúc nhằm tổ chức dữ liệu để sử dụng phân tích, trong hi đó Data lake có thể chứa khá nhiều loại dữ liệu—có cấu trúc hoặc không cấu trúc—và dữ liệu thường được giữ nguyên ở định dạng thô cho đến khi sẵn sàng sử dụng.</p>
+<p>Hiểu đơn giản thì data lake chứa đủ mọi loại mọi kiểu dữ liệu tùm lum, một phần dữ liệu có cấu trúc trong data lake sẽ được load vào data warehouse trong quá trình ETL hoặc ELT.</p>
+<div id="kết-luận" class="anchor"></div>
+<h2 class="relative group">Kết luận 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#k%e1%ba%bft-lu%e1%ba%adn" aria-label="Anchor">#</a></span>        
+    
+</h2>
+<p>Data warehouse đã đi một chặng đường dài trong 40 năm qua. Nó bắt đầu như một bộ máy vật lý thực tế với chi phí khổng lồ đến  một hệ thống có sẵn cho bất kỳ ai, ở bất kỳ đâu với chi phí phải chăng. Nó có khả năng tập trung tất cả dữ liệu của doanh nghiệp bạn, cho phép thực hiện các hoạt động phân tích nhanh hơn, KPI được tiêu chuẩn hóa và một nguồn thông tin đáng tin cậy duy nhất. Tất cả các doanh nghiệp đều cần một kho dữ liệu để hoạt động nhanh chóng và hiệu quả với dữ liệu mà họ có thể dựa vào. Câu hỏi không phải là bạn có cần data warehouse hay không mà là bạn nên chọn loại data warehouse nào.</p>
 <div id="reference" class="anchor"></div>
 <h1 class="relative group">Reference 
     <span
@@ -1055,10 +1099,8 @@
             style="text-decoration-line: none !important;" href="#reference" aria-label="Anchor">#</a></span>        
     
 </h1>
-<p><a href="https://docs.getdbt.com/quickstarts/manual-install?step=1"   target="_blank">
-    https://docs.getdbt.com/quickstarts/manual-install?step=1</a></p>
-<p><a href="https://docs.getdbt.com/quickstarts/bigquery?step=1"   target="_blank">
-    https://docs.getdbt.com/quickstarts/bigquery?step=1</a></p>
+<p><a href="https://docs.getdbt.com/terms/data-warehouse"   target="_blank">
+    https://docs.getdbt.com/terms/data-warehouse</a></p>
 
         </div>
                 
@@ -1070,8 +1112,8 @@
       </div>
      
      <script>
-        var oid = "views_posts\\dbt_2\\index.md"
-        var oid_likes = "likes_posts\\dbt_2\\index.md"
+        var oid = "views_posts\\datawarehouse\\index.md"
+        var oid_likes = "likes_posts\\datawarehouse\\index.md"
       </script>
       
       
@@ -1090,7 +1132,7 @@
       <div class="flex justify-between pt-3">
         <span>
           
-            <a class="flex group mr-3" href="/posts/datawarehouse/">
+            <a class="flex group mr-3" href="/posts/dbt_1/">
               <span
                 class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
                 >&larr;</span
@@ -1102,11 +1144,11 @@
               <span class="flex flex-col">
                 <span
                   class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >[Data Warehouse] Kiến Thức Tổng Quan Về Data Warehouse (Kho Dữ Liệu)</span
+                  >DBT (Data Build Tool) Là Gì? Những Thứ Cơ Bản Về DBT</span
                 >
                 <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
                   
-                    <time datetime="2023-09-24 03:43:26 &#43;0700 &#43;07">2023-09-24</time>
+                    <time datetime="2023-08-05 03:43:26 &#43;0700 &#43;07">2023-08-05</time>
                   
                 </span>
               </span>
@@ -1115,15 +1157,15 @@
         </span>
         <span>
           
-            <a class="flex text-right group ml-3" href="/posts/dagster_1/">
+            <a class="flex text-right group ml-3" href="/posts/dbt_2/">
               <span class="flex flex-col">
                 <span
                   class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >Dagster Là Gì? Dagster Cơ Bản Cho Người Mới Bắt Đầu</span
+                  >[DBT] Kết Nối DBT Với Big Query</span
                 >
                 <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
                   
-                    <time datetime="2023-11-22 03:56:20 &#43;0700 &#43;07">2023-11-22</time>
+                    <time datetime="2023-09-25 03:43:26 &#43;0700 &#43;07">2023-09-25</time>
                   
                 </span>
               </span>

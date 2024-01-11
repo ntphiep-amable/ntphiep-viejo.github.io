@@ -29,6 +29,16 @@
     </item>
     
     <item>
+      <title>[Data Warehouse] Kiến Thức Tổng Quan Về Data Warehouse (Kho Dữ Liệu)</title>
+      <link>https://ntphiep.github.io/posts/datawarehouse/</link>
+      <pubDate>Sun, 24 Sep 2023 03:43:26 +0700</pubDate>
+      
+      <guid>https://ntphiep.github.io/posts/datawarehouse/</guid>
+      <description>Lời mở đầu # Bài này là mình dịch và sửa lại từ một bài viết thấy khá hay, chi tiết và đầy đủ. Link bài viết mình để ở dưới nhé!</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://ntphiep.github.io/posts/datawarehouse/featured.png" />
+    </item>
+    
+    <item>
       <title>DBT (Data Build Tool) Là Gì? Những Thứ Cơ Bản Về DBT</title>
       <link>https://ntphiep.github.io/posts/dbt_1/</link>
       <pubDate>Sat, 05 Aug 2023 03:43:26 +0700</pubDate>
