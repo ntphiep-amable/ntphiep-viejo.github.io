@@ -1,7 +1,7 @@
 +++
 title = 'DBT (Data Build Tool) Là Gì? Những Thứ Cơ Bản Về DBT'
 date = 2023-08-05T03:43:26+07:00
-draft = false
+draft = true
 
 tags = ["python", "data", "dbt", "etl"]
 showTableOfContents = true

@@ -1,16 +1,16 @@
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "Hiep's blog"
+title = "NTPH's text"
 
 [author]
   name = "Hiep"
   image = "img/avt1.jpg"
-  headline = "Solo un soñador"
+  headline = "Solo el hombre!"
   bio = "Hi! I’m Hiep. "
   links = [
-    { facebook = "https://www.facebook.com/ng.hiep.128" },
-    { instagram = "https://www.instagram.com/ng.hiep__/" },
+    { facebook = "https://www.facebook.com/ntphiep" },
+    { instagram = "https://www.instagram.com/ntphiep/" },
     { github = "https://github.com/ntphiep" },
     { email = "mailto:ng.hiep0822@gmail.com" },
     { linkedin = "https://www.linkedin.com/in/ntphiep/" }

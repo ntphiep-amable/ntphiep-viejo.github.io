@@ -1,7 +1,7 @@
 +++
 title = 'Dagster Cơ Bản: Build Một Data Pipeline Đơn Giản Với Dagster'
 date = 2023-08-01T03:43:26+07:00
-draft = false
+draft = true
 
 tags = ["python", "data", "dagster", "data pipeline"]
 showTableOfContents = true
