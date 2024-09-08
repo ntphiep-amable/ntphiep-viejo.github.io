@@ -23,8 +23,8 @@
 
 
 [[main]]
-  name = "Shop"
-  pageRef = "shop"
+  name = "Projects"
+  pageRef = "projects"
   weight = 30
 
 
@@ -36,7 +36,7 @@
 
 [[main]]
   name = "About"
-  pageRef = "info"
+  pageRef = "about"
   weight = 50
 
 # [[main]]
