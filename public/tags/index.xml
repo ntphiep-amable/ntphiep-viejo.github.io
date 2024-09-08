@@ -1,112 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Hiep&#39;s blog</title>
+    <title>Tags on NTPH&#39;s text</title>
     <link>https://ntphiep.github.io/tags/</link>
-    <description>Recent content in Tags on Hiep&#39;s blog</description>
+    <description>Recent content in Tags on NTPH&#39;s text</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>© 2024 Hiep</copyright>
-    <lastBuildDate>Wed, 22 Nov 2023 03:56:20 +0700</lastBuildDate><atom:link href="https://ntphiep.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>dagster</title>
-      <link>https://ntphiep.github.io/tags/dagster/</link>
-      <pubDate>Wed, 22 Nov 2023 03:56:20 +0700</pubDate>
-      
-      <guid>https://ntphiep.github.io/tags/dagster/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>data</title>
-      <link>https://ntphiep.github.io/tags/data/</link>
-      <pubDate>Wed, 22 Nov 2023 03:56:20 +0700</pubDate>
-      
-      <guid>https://ntphiep.github.io/tags/data/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>python</title>
-      <link>https://ntphiep.github.io/tags/python/</link>
-      <pubDate>Wed, 22 Nov 2023 03:56:20 +0700</pubDate>
-      
-      <guid>https://ntphiep.github.io/tags/python/</guid>
-      <description></description>
-      
-    </item>
-    
+    <lastBuildDate>Tue, 21 Nov 2023 03:56:10 +0700</lastBuildDate>
+    <atom:link href="https://ntphiep.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>shop</title>
       <link>https://ntphiep.github.io/tags/shop/</link>
       <pubDate>Tue, 21 Nov 2023 03:56:10 +0700</pubDate>
-      
       <guid>https://ntphiep.github.io/tags/shop/</guid>
       <description></description>
-      
     </item>
-    
-    <item>
-      <title>bigquerry</title>
-      <link>https://ntphiep.github.io/tags/bigquerry/</link>
-      <pubDate>Mon, 25 Sep 2023 03:43:26 +0700</pubDate>
-      
-      <guid>https://ntphiep.github.io/tags/bigquerry/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>dbt</title>
-      <link>https://ntphiep.github.io/tags/dbt/</link>
-      <pubDate>Mon, 25 Sep 2023 03:43:26 +0700</pubDate>
-      
-      <guid>https://ntphiep.github.io/tags/dbt/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>data science</title>
-      <link>https://ntphiep.github.io/tags/data-science/</link>
-      <pubDate>Sun, 24 Sep 2023 03:43:26 +0700</pubDate>
-      
-      <guid>https://ntphiep.github.io/tags/data-science/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>datawarehouse</title>
-      <link>https://ntphiep.github.io/tags/datawarehouse/</link>
-      <pubDate>Sun, 24 Sep 2023 03:43:26 +0700</pubDate>
-      
-      <guid>https://ntphiep.github.io/tags/datawarehouse/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>etl</title>
-      <link>https://ntphiep.github.io/tags/etl/</link>
-      <pubDate>Sat, 05 Aug 2023 03:43:26 +0700</pubDate>
-      
-      <guid>https://ntphiep.github.io/tags/etl/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>data pipeline</title>
-      <link>https://ntphiep.github.io/tags/data-pipeline/</link>
-      <pubDate>Tue, 01 Aug 2023 03:43:26 +0700</pubDate>
-      
-      <guid>https://ntphiep.github.io/tags/data-pipeline/</guid>
-      <description></description>
-      
-    </item>
-    
   </channel>
 </rss>
