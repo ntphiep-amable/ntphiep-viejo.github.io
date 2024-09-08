@@ -39,13 +39,13 @@
           href="https://blowfish.page/" target="_blank" rel="noopener noreferrer">Blowfish</a>` }}
         {{ i18n "footer.powered_by" (dict "Hugo" $hugo "Theme" $blowfish)  | safeHTML }} -->
   
-        Powered by <a href="https://www.instagram.com/ntphiep">NTPH</a>
+        Powered by <a href="https://blowfish.page/">blowfish</a>
       </p>
       {{ end }}
   
     </div>
     <script>
-      {{ if not .Site.Params.disableImageZoom | default true }}
+      {{ if not (.Site.Params.disableImageZoom | default true) }}
       mediumZoom(document.querySelectorAll("img:not(.nozoom)"), {
         margin: 24,
         background: 'rgba(0,0,0,0.5)',

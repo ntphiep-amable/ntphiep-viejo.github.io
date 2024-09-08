@@ -6,14 +6,14 @@ title = "NTPH's text"
 [author]
   name = "Hiep"
   image = "img/avt1.jpg"
-  headline = "Solo el hombre!"
+  headline = "¡Solo el hombre!"
   bio = "Hi! I’m Hiep. "
   links = [
     { facebook = "https://www.facebook.com/ntphiep" },
     { instagram = "https://www.instagram.com/ntphiep/" },
     { github = "https://github.com/ntphiep" },
-    { email = "mailto:ng.hiep0822@gmail.com" },
-    { linkedin = "https://www.linkedin.com/in/ntphiep/" }
+    { linkedin = "https://www.linkedin.com/in/ntphiep/" },
+    { email = "mailto:ng.hiep0822@gmail.com" }
   ]
 
 [params]

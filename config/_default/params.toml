@@ -136,7 +136,7 @@ smartTOCHideUnfocusedChildren = false
 [buymeacoffee]
   identifier = "ntphiep"
   globalWidget = true
-  globalWidgetMessage = "Thanks!"
+  globalWidgetMessage = "Gracias"
   globalWidgetColor = "#00a2ff"
   globalWidgetPosition = "Right"
 
