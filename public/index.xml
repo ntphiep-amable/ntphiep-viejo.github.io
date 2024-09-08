@@ -6,29 +6,15 @@
     <description>Recent content on NTPH&#39;s text</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>© 2024 </copyright>
-    <lastBuildDate>Tue, 21 Nov 2023 03:56:10 +0700</lastBuildDate><atom:link href="https://ntphiep.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ntphiep.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About NTPH</title>
       <link>https://ntphiep.github.io/about/</link>
       <pubDate>Tue, 21 Nov 2023 03:57:10 +0700</pubDate>
-      
       <guid>https://ntphiep.github.io/about/</guid>
-      <description>¡Hola a todos, soy Hiep! #Este es mi blog personal, aquí escribiré sobre temas como vida, programación, opiniones, emociones o temas varios&amp;hellip;
+      <description>¡Hola a todos, soy Hiep! Este es mi blog personal, aquí escribiré sobre temas como vida, programación, opiniones, emociones o temas varios&amp;hellip;
 Gracias por leer😙.
 Lói chung là cái cuộc sống này buồn ~</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://ntphiep.github.io/about/featured.jpg" />
     </item>
-    
-    <item>
-      <title>Shop</title>
-      <link>https://ntphiep.github.io/projects/</link>
-      <pubDate>Tue, 21 Nov 2023 03:56:10 +0700</pubDate>
-      
-      <guid>https://ntphiep.github.io/projects/</guid>
-      <description>This is my shopp #</description>
-      
-    </item>
-    
   </channel>
 </rss>
