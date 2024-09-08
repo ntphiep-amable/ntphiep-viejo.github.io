@@ -1,7 +1,7 @@
 +++
 title = '[DBT] Kết Nối DBT Với Big Query'
 date = 2023-09-25T03:43:26+07:00
-draft = false
+draft = true
 
 tags = ["python", "data", "dbt", "bigquerry"]
 showTableOfContents = true
