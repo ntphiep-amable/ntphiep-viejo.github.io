@@ -6,7 +6,7 @@ title = "Hiep's blog"
 [author]
   name = "Hiep"
   image = "img/avt1.jpg"
-  headline = ""
+  headline = "Solo el hombre!"
   bio = "Hi! I’m Hiep. "
   links = [
     { facebook = "https://www.facebook.com/ntphiep" },
